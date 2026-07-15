@@ -1,0 +1,377 @@
+{
+  "case": "lesmis",
+  "description": "Les Miserables character co-appearance weighted graph (77 nodes, 254 edges)",
+  "n_buses": 54,
+  "n_free": 51,
+  "n_sources": 3,
+  "source_capped": false,
+  "source_ids": [
+    0,
+    27,
+    53
+  ],
+  "n_branches": 195,
+  "weighted": true,
+  "v_base": 12.0,
+  "r_base_ohms": 1.0,
+  "netlists_written": 51,
+  "targets": [
+    {
+      "target_bus": 1,
+      "truth_vm_pu": 0.927268485,
+      "truth_v": 11.127221822,
+      "target_node": 2,
+      "netlist_file": "lesmis_node00001.sp"
+    },
+    {
+      "target_bus": 2,
+      "truth_vm_pu": 0.909339863,
+      "truth_v": 10.912078351,
+      "target_node": 3,
+      "netlist_file": "lesmis_node00002.sp"
+    },
+    {
+      "target_bus": 3,
+      "truth_vm_pu": 0.962108706,
+      "truth_v": 11.545304471,
+      "target_node": 4,
+      "netlist_file": "lesmis_node00003.sp"
+    },
+    {
+      "target_bus": 4,
+      "truth_vm_pu": 0.910473467,
+      "truth_v": 10.925681603,
+      "target_node": 5,
+      "netlist_file": "lesmis_node00004.sp"
+    },
+    {
+      "target_bus": 5,
+      "truth_vm_pu": 0.950992887,
+      "truth_v": 11.411914647,
+      "target_node": 6,
+      "netlist_file": "lesmis_node00005.sp"
+    },
+    {
+      "target_bus": 6,
+      "truth_vm_pu": 0.954463973,
+      "truth_v": 11.453567672,
+      "target_node": 7,
+      "netlist_file": "lesmis_node00006.sp"
+    },
+    {
+      "target_bus": 7,
+      "truth_vm_pu": 0.954899521,
+      "truth_v": 11.458794255,
+      "target_node": 8,
+      "netlist_file": "lesmis_node00007.sp"
+    },
+    {
+      "target_bus": 8,
+      "truth_vm_pu": 0.958650924,
+      "truth_v": 11.503811089,
+      "target_node": 9,
+      "netlist_file": "lesmis_node00008.sp"
+    },
+    {
+      "target_bus": 9,
+      "truth_vm_pu": 0.951064474,
+      "truth_v": 11.412773686,
+      "target_node": 10,
+      "netlist_file": "lesmis_node00009.sp"
+    },
+    {
+      "target_bus": 10,
+      "truth_vm_pu": 0.912327192,
+      "truth_v": 10.947926309,
+      "target_node": 11,
+      "netlist_file": "lesmis_node00010.sp"
+    },
+    {
+      "target_bus": 11,
+      "truth_vm_pu": 0.912638073,
+      "truth_v": 10.951656875,
+      "target_node": 12,
+      "netlist_file": "lesmis_node00011.sp"
+    },
+    {
+      "target_bus": 12,
+      "truth_vm_pu": 0.913226576,
+      "truth_v": 10.958718909,
+      "target_node": 13,
+      "netlist_file": "lesmis_node00012.sp"
+    },
+    {
+      "target_bus": 13,
+      "truth_vm_pu": 0.913558112,
+      "truth_v": 10.962697343,
+      "target_node": 14,
+      "netlist_file": "lesmis_node00013.sp"
+    },
+    {
+      "target_bus": 14,
+      "truth_vm_pu": 0.922518687,
+      "truth_v": 11.070224247,
+      "target_node": 15,
+      "netlist_file": "lesmis_node00014.sp"
+    },
+    {
+      "target_bus": 15,
+      "truth_vm_pu": 0.887444107,
+      "truth_v": 10.649329279,
+      "target_node": 16,
+      "netlist_file": "lesmis_node00015.sp"
+    },
+    {
+      "target_bus": 16,
+      "truth_vm_pu": 0.887444107,
+      "truth_v": 10.649329279,
+      "target_node": 17,
+      "netlist_file": "lesmis_node00016.sp"
+    },
+    {
+      "target_bus": 17,
+      "truth_vm_pu": 0.887663541,
+      "truth_v": 10.651962494,
+      "target_node": 18,
+      "netlist_file": "lesmis_node00017.sp"
+    },
+    {
+      "target_bus": 18,
+      "truth_vm_pu": 0.889703927,
+      "truth_v": 10.676447127,
+      "target_node": 19,
+      "netlist_file": "lesmis_node00018.sp"
+    },
+    {
+      "target_bus": 19,
+      "truth_vm_pu": 0.884379738,
+      "truth_v": 10.612556854,
+      "target_node": 20,
+      "netlist_file": "lesmis_node00019.sp"
+    },
+    {
+      "target_bus": 20,
+      "truth_vm_pu": 0.884201635,
+      "truth_v": 10.610419625,
+      "target_node": 21,
+      "netlist_file": "lesmis_node00020.sp"
+    },
+    {
+      "target_bus": 21,
+      "truth_vm_pu": 0.883120812,
+      "truth_v": 10.59744974,
+      "target_node": 22,
+      "netlist_file": "lesmis_node00021.sp"
+    },
+    {
+      "target_bus": 22,
+      "truth_vm_pu": 0.883120812,
+      "truth_v": 10.59744974,
+      "target_node": 23,
+      "netlist_file": "lesmis_node00022.sp"
+    },
+    {
+      "target_bus": 23,
+      "truth_vm_pu": 0.879415663,
+      "truth_v": 10.55298796,
+      "target_node": 24,
+      "netlist_file": "lesmis_node00023.sp"
+    },
+    {
+      "target_bus": 24,
+      "truth_vm_pu": 0.877545401,
+      "truth_v": 10.53054481,
+      "target_node": 25,
+      "netlist_file": "lesmis_node00024.sp"
+    },
+    {
+      "target_bus": 25,
+      "truth_vm_pu": 0.87723369,
+      "truth_v": 10.526804285,
+      "target_node": 26,
+      "netlist_file": "lesmis_node00025.sp"
+    },
+    {
+      "target_bus": 26,
+      "truth_vm_pu": 0.876890743,
+      "truth_v": 10.522688911,
+      "target_node": 27,
+      "netlist_file": "lesmis_node00026.sp"
+    },
+    {
+      "target_bus": 28,
+      "truth_vm_pu": 0.877580357,
+      "truth_v": 10.530964288,
+      "target_node": 29,
+      "netlist_file": "lesmis_node00028.sp"
+    },
+    {
+      "target_bus": 29,
+      "truth_vm_pu": 0.876890743,
+      "truth_v": 10.522688911,
+      "target_node": 30,
+      "netlist_file": "lesmis_node00029.sp"
+    },
+    {
+      "target_bus": 30,
+      "truth_vm_pu": 0.88378689,
+      "truth_v": 10.605442681,
+      "target_node": 31,
+      "netlist_file": "lesmis_node00030.sp"
+    },
+    {
+      "target_bus": 31,
+      "truth_vm_pu": 0.892304548,
+      "truth_v": 10.707654571,
+      "target_node": 32,
+      "netlist_file": "lesmis_node00031.sp"
+    },
+    {
+      "target_bus": 32,
+      "truth_vm_pu": 0.892304548,
+      "truth_v": 10.707654571,
+      "target_node": 33,
+      "netlist_file": "lesmis_node00032.sp"
+    },
+    {
+      "target_bus": 33,
+      "truth_vm_pu": 0.892304548,
+      "truth_v": 10.707654571,
+      "target_node": 34,
+      "netlist_file": "lesmis_node00033.sp"
+    },
+    {
+      "target_bus": 34,
+      "truth_vm_pu": 0.909339863,
+      "truth_v": 10.912078351,
+      "target_node": 35,
+      "netlist_file": "lesmis_node00034.sp"
+    },
+    {
+      "target_bus": 35,
+      "truth_vm_pu": 0.909339863,
+      "truth_v": 10.912078351,
+      "target_node": 36,
+      "netlist_file": "lesmis_node00035.sp"
+    },
+    {
+      "target_bus": 36,
+      "truth_vm_pu": 0.909339863,
+      "truth_v": 10.912078351,
+      "target_node": 37,
+      "netlist_file": "lesmis_node00036.sp"
+    },
+    {
+      "target_bus": 37,
+      "truth_vm_pu": 0.909339863,
+      "truth_v": 10.912078351,
+      "target_node": 38,
+      "netlist_file": "lesmis_node00037.sp"
+    },
+    {
+      "target_bus": 38,
+      "truth_vm_pu": 0.909339863,
+      "truth_v": 10.912078351,
+      "target_node": 39,
+      "netlist_file": "lesmis_node00038.sp"
+    },
+    {
+      "target_bus": 39,
+      "truth_vm_pu": 0.909339863,
+      "truth_v": 10.912078351,
+      "target_node": 40,
+      "netlist_file": "lesmis_node00039.sp"
+    },
+    {
+      "target_bus": 40,
+      "truth_vm_pu": 0.909339863,
+      "truth_v": 10.912078351,
+      "target_node": 41,
+      "netlist_file": "lesmis_node00040.sp"
+    },
+    {
+      "target_bus": 41,
+      "truth_vm_pu": 0.909339863,
+      "truth_v": 10.912078351,
+      "target_node": 42,
+      "netlist_file": "lesmis_node00041.sp"
+    },
+    {
+      "target_bus": 42,
+      "truth_vm_pu": 0.909339863,
+      "truth_v": 10.912078351,
+      "target_node": 43,
+      "netlist_file": "lesmis_node00042.sp"
+    },
+    {
+      "target_bus": 43,
+      "truth_vm_pu": 0.866938167,
+      "truth_v": 10.403257999,
+      "target_node": 44,
+      "netlist_file": "lesmis_node00043.sp"
+    },
+    {
+      "target_bus": 44,
+      "truth_vm_pu": 0.866938167,
+      "truth_v": 10.403257999,
+      "target_node": 45,
+      "netlist_file": "lesmis_node00044.sp"
+    },
+    {
+      "target_bus": 45,
+      "truth_vm_pu": 0.866938167,
+      "truth_v": 10.403257999,
+      "target_node": 46,
+      "netlist_file": "lesmis_node00045.sp"
+    },
+    {
+      "target_bus": 46,
+      "truth_vm_pu": 0.845737319,
+      "truth_v": 10.148847823,
+      "target_node": 47,
+      "netlist_file": "lesmis_node00046.sp"
+    },
+    {
+      "target_bus": 47,
+      "truth_vm_pu": 0.781237937,
+      "truth_v": 9.374855242,
+      "target_node": 48,
+      "netlist_file": "lesmis_node00047.sp"
+    },
+    {
+      "target_bus": 48,
+      "truth_vm_pu": 0.782086613,
+      "truth_v": 9.385039355,
+      "target_node": 49,
+      "netlist_file": "lesmis_node00048.sp"
+    },
+    {
+      "target_bus": 49,
+      "truth_vm_pu": 0.781237937,
+      "truth_v": 9.374855242,
+      "target_node": 50,
+      "netlist_file": "lesmis_node00049.sp"
+    },
+    {
+      "target_bus": 50,
+      "truth_vm_pu": 0.781237937,
+      "truth_v": 9.374855242,
+      "target_node": 51,
+      "netlist_file": "lesmis_node00050.sp"
+    },
+    {
+      "target_bus": 51,
+      "truth_vm_pu": 0.781237937,
+      "truth_v": 9.374855242,
+      "target_node": 52,
+      "netlist_file": "lesmis_node00051.sp"
+    },
+    {
+      "target_bus": 52,
+      "truth_vm_pu": 0.773599852,
+      "truth_v": 9.283198226,
+      "target_node": 53,
+      "netlist_file": "lesmis_node00052.sp"
+    }
+  ]
+}

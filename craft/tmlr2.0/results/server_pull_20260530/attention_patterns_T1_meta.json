@@ -1,0 +1,46 @@
+[
+  {
+    "circuit": "CKT_0015",
+    "n": 2,
+    "n_layers": 3,
+    "n_heads": 13,
+    "tokens": [
+      "start",
+      "init_0",
+      "init_1",
+      "fwd_0",
+      "fwd_1",
+      "bck_1",
+      "bck_0",
+      "halt"
+    ]
+  },
+  {
+    "circuit": "CKT_0067",
+    "n": 6,
+    "n_layers": 3,
+    "n_heads": 35,
+    "tokens": [
+      "start",
+      "init_0",
+      "init_1",
+      "init_2",
+      "init_3",
+      "init_4",
+      "init_5",
+      "fwd_0",
+      "fwd_1",
+      "fwd_2",
+      "fwd_3",
+      "fwd_4",
+      "fwd_5",
+      "bck_5",
+      "bck_4",
+      "bck_3",
+      "bck_2",
+      "bck_1",
+      "bck_0",
+      "halt"
+    ]
+  }
+]

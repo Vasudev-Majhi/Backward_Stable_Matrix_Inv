@@ -1,0 +1,37 @@
+{
+  "circuit_id": "CKT_0097",
+  "algorithm": "lu_direct",
+  "N": 11,
+  "n_free": 7,
+  "n_fixed": 4,
+  "target_node": 6,
+  "target_is_fixed": false,
+  "target_free_index": 4,
+  "free": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9
+  ],
+  "fixed": [
+    0,
+    1,
+    8,
+    10
+  ],
+  "pos_rhs_base": 23,
+  "pos_fwd_base": 30,
+  "pos_bck_base": 37,
+  "pos_readout": 44,
+  "slot_x_value": 11,
+  "slot_v_value": 10,
+  "slot_y_input": 12,
+  "slot_is_v_emission": 4,
+  "slot_b_value": 4,
+  "slot_x_new": 8,
+  "slot_v_score_source": 10,
+  "slot_emit_v_gate": 12
+}

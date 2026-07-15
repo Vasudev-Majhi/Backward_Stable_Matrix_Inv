@@ -1,0 +1,4 @@
+circuit,n_free,n_layers,n_heads_per_layer,total_heads,critical_heads,fraction_critical
+CKT_0001,1,2,8,16,0,0.0
+CKT_0015,2,3,12,36,0,0.0
+CKT_0067,6,3,35,105,15,0.14285714285714285

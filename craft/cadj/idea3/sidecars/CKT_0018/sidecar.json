@@ -1,0 +1,19 @@
+{
+  "circuit": "CKT_0018",
+  "N": 4,
+  "n_free": 2,
+  "n_fixed": 2,
+  "free_indices": [
+    2,
+    3
+  ],
+  "fixed_indices": [
+    0,
+    1
+  ],
+  "target_node": 3,
+  "target_free_idx": 1,
+  "lu_model_path": "craft/cadj/idea3/sidecars/CKT_0018/lu_model/model_92f7f48f6436_lu.bin",
+  "A_FF_path": "craft/cadj/idea3/sidecars/CKT_0018/A_FF.npy",
+  "A_FP_path": "craft/cadj/idea3/sidecars/CKT_0018/A_FP.npy"
+}

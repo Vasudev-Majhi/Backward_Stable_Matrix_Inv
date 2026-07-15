@@ -1,0 +1,171 @@
+{
+  "circuit_id": "CKT_0001",
+  "n_free": 1,
+  "column": 0,
+  "matrix_A": [
+    [
+      6.016042780748663e-05
+    ]
+  ],
+  "L": [
+    [
+      1.0
+    ]
+  ],
+  "U": [
+    [
+      6.016042780748663e-05
+    ]
+  ],
+  "b": [
+    1.0
+  ],
+  "x_ref": [
+    16622.222222222223
+  ],
+  "n_layers": 2,
+  "n_heads": 8,
+  "d_model": 16,
+  "slots": {
+    "x_value": 9,
+    "b_value": 7,
+    "y_input": 8,
+    "x_new": 7
+  },
+  "tokens": [
+    {
+      "pos": 0,
+      "tok": "start",
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        }
+      ],
+      "final_slot_x_new": 0.0
+    },
+    {
+      "pos": 1,
+      "tok": "init_0",
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        }
+      ],
+      "final_slot_x_new": 0.0
+    },
+    {
+      "pos": 2,
+      "tok": "fwd_0",
+      "inject_slot_b_value": 1.0,
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 1.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 1.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": -1.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 1.0,
+          "post_ffn_x_new": 1.0
+        }
+      ],
+      "final_slot_x_new": 1.0
+    },
+    {
+      "pos": 3,
+      "tok": "bck_0",
+      "inject_slot_y_input": 1.0,
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 1.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 16622.222222222223,
+          "post_ffn_x_new": 16622.222222222223
+        }
+      ],
+      "final_slot_x_new": 16622.222222222223
+    },
+    {
+      "pos": 4,
+      "tok": "halt",
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        }
+      ],
+      "final_slot_x_new": 0.0
+    }
+  ],
+  "y_buf": [
+    1.0
+  ],
+  "x_result": [
+    16622.222222222223
+  ],
+  "max_abs_err_vs_numpy": 0.0
+}

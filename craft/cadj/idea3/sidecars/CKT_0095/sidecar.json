@@ -1,0 +1,24 @@
+{
+  "circuit": "CKT_0095",
+  "N": 11,
+  "n_free": 5,
+  "n_fixed": 6,
+  "free_indices": [
+    2,
+    3,
+    8,
+    9,
+    10
+  ],
+  "fixed_indices": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    7
+  ],
+  "target_node": 6,
+  "target_is_fixed": true,
+  "target_fixed_voltage": 1.8
+}

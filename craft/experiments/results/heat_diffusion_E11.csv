@@ -1,0 +1,4 @@
+grid,N,T,pred_V,jacobi_ref_V,analytical_V,err_vs_jacobi,err_vs_analytical,seq_length,runtime_s,pass,tol_V,error
+3x3,10,1000,5.2500,5.2500,5.2500,0.0000,0.0000,20024,4.34,True,0.1,
+5x5,26,1300,5.2000,5.2498,5.2500,0.0498,0.0500,67656,15.39,True,0.1,
+10x10,101,5050,4.6500,4.9297,4.9309,0.2797,0.2809,1020306,250.66,False,0.1,

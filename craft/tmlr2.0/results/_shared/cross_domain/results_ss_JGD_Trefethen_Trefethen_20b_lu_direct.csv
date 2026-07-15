@@ -1,0 +1,13 @@
+case,target_bus,target_node,truth_v,truth_vm_pu,pred_v_lu_direct,ref_v_numpy_solve,abs_error_v,rel_error_pct,abs_error_vs_numpy_v,pass_fail,N,n_free,n_fixed,seq_length,build_status,build_time_s,run_status,run_time_s,n_layers,d_model,error
+ss_JGD_Trefethen_Trefethen_20b,1,1,9.9705,0.830872,9.9500,9.970461,0.0205,0.21,0.0205,PASS,20,16,4,92,built,25.27,PASS,5.37,4,182,
+ss_JGD_Trefethen_Trefethen_20b,2,2,10.2688,0.855734,10.2500,10.268804,0.0188,0.18,0.0188,PASS,20,16,4,92,built,30.03,PASS,4.13,4,182,
+ss_JGD_Trefethen_Trefethen_20b,6,6,9.9077,0.825640,9.9000,9.907681,0.0077,0.08,0.0077,PASS,20,16,4,92,built,28.82,PASS,5.19,4,182,
+ss_JGD_Trefethen_Trefethen_20b,10,10,9.6218,0.801819,9.6000,9.621827,0.0218,0.23,0.0218,PASS,20,16,4,92,built,28.74,PASS,4.65,4,182,
+ss_JGD_Trefethen_Trefethen_20b,11,11,9.8490,0.820754,9.8500,9.849043,0.0010,0.01,0.0010,PASS,20,16,4,92,built,30.34,PASS,5.26,4,182,
+ss_JGD_Trefethen_Trefethen_20b,12,12,9.7584,0.813202,9.7500,9.758425,0.0084,0.09,0.0084,PASS,20,16,4,92,built,27.03,PASS,4.12,4,182,
+ss_JGD_Trefethen_Trefethen_20b,13,13,9.5314,0.794286,9.5500,9.531438,0.0186,0.19,0.0186,PASS,20,16,4,92,built,27.06,PASS,4.43,4,182,
+ss_JGD_Trefethen_Trefethen_20b,14,14,9.7409,0.811741,9.7500,9.740886,0.0091,0.09,0.0091,PASS,20,16,4,92,built,26.03,PASS,3.23,4,182,
+ss_JGD_Trefethen_Trefethen_20b,16,16,9.7201,0.810011,9.7000,9.720135,0.0201,0.21,0.0201,PASS,20,16,4,92,built,23.15,PASS,3.23,4,182,
+ss_JGD_Trefethen_Trefethen_20b,17,17,9.5835,0.798626,9.6000,9.583512,0.0165,0.17,0.0165,PASS,20,16,4,92,built,22.12,PASS,3.34,4,182,
+ss_JGD_Trefethen_Trefethen_20b,18,18,9.8585,0.821542,9.8500,9.858501,0.0085,0.09,0.0085,PASS,20,16,4,92,built,16.85,PASS,0.99,4,182,
+ss_JGD_Trefethen_Trefethen_20b,19,19,10.2159,0.851321,10.2000,10.215851,0.0159,0.16,0.0159,PASS,20,16,4,92,built,9.40,PASS,0.15,4,182,

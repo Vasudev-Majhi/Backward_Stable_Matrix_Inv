@@ -1,0 +1,222 @@
+slot_map:
+  0:
+  - position
+  1:
+  - inv_log_pos
+  2:
+  - position_sq
+  3:
+  - one
+  4:
+  - is_update_tok
+  5:
+  - is_v_emission
+  - reglu_53
+  - v_score_source
+  6:
+  - is_readout_tok
+  - v_new
+  7:
+  - is_skip_tok
+  - target_v
+  - v_new_free
+  - v_tos[0]
+  8:
+  - emit_v_gate
+  - reglu_34
+  - v_value_slot
+  9:
+  - node_id
+  - sum_wv
+  - v_tos[1]
+  10:
+  - is_fixed
+  11:
+  - init_voltage
+  - reglu_59
+  - v_tos[2]
+  12:
+  - iter_parity
+  - v_tos[3]
+  13:
+  - nbr_off_0
+  - reglu_37
+  14:
+  - nbr_off_1
+  - reglu_40
+  15:
+  - nbr_off_2
+  - reglu_43
+  16:
+  - nbr_off_3
+  - reglu_46
+  17:
+  - msg_k+
+  - nbr_off_4
+  18:
+  - nbr_off_5
+  19:
+  - nbr_w_0
+  20:
+  - nbr_w_1
+  21:
+  - nbr_w_2
+  22:
+  - nbr_w_3
+  23:
+  - nbr_w_4
+  24:
+  - nbr_w_5
+  25:
+  - nbr_valid_0
+  26:
+  - nbr_valid_1
+  27:
+  - nbr_valid_2
+  28:
+  - nbr_valid_3
+  29:
+  - nbr_valid_4
+  30:
+  - nbr_valid_5
+  31:
+  - readout_offset
+  32:
+  - persist_32
+  33:
+  - v_tos[4]
+  34:
+  - v_to_k
+  35:
+  - target_v
+layers:
+- layer: 0
+  attention_heads:
+  - head: 0
+    type: passthrough
+    slot_v0: 5
+    slot_v1: 3
+  - head: 1
+    type: passthrough
+    slot_v0: 9
+    slot_v1: 12
+  - head: 2
+    type: passthrough
+    slot_v0: 7
+  persist1:
+  - persist_32
+  ffn:
+  - reglu_53
+  persist2: []
+- layer: 1
+  attention_heads:
+  - head: 0
+    type: lookup
+    lookup: v_tos
+    values:
+    - v_tos[0]
+    tie_break: latest
+  - head: 1
+    type: lookup
+    lookup: v_tos
+    values:
+    - v_tos[1]
+    tie_break: latest
+  - head: 2
+    type: lookup
+    lookup: v_tos
+    values:
+    - v_tos[2]
+    tie_break: latest
+  - head: 3
+    type: lookup
+    lookup: v_tos
+    values:
+    - v_tos[3]
+    tie_break: latest
+  - head: 4
+    type: lookup
+    lookup: v_tos
+    values:
+    - v_tos[4]
+    tie_break: latest
+  - head: 5
+    type: lookup
+    lookup: v_tos
+    values:
+    - v_to_k
+    tie_break: latest
+  - head: 6
+    type: lookup
+    lookup: target_v
+    values:
+    - target_v
+    tie_break: latest
+  - head: 7
+    type: passthrough
+    slot_v0: 32
+    slot_v1: 8
+  - head: 8
+    type: passthrough
+    slot_v0: 13
+    slot_v1: 14
+  - head: 9
+    type: passthrough
+    slot_v0: 15
+    slot_v1: 16
+  - head: 10
+    type: passthrough
+    slot_v0: 17
+    slot_v1: 18
+  - head: 11
+    type: passthrough
+    slot_v0: 31
+  persist1: []
+  ffn:
+  - reglu_34
+  - reglu_37
+  - reglu_40
+  - reglu_43
+  - reglu_46
+  - msg_k+
+  persist2: []
+- layer: 2
+  attention_heads:
+  - head: 0
+    type: passthrough
+    slot_v0: 35
+  persist1:
+  - target_v
+  ffn:
+  - msgs[0]+
+  - msgs[1]+
+  - msgs[2]+
+  - msgs[3]+
+  - msgs[4]+
+  - msgs[5]+
+  - reglu_59
+  persist2:
+  - sum_wv
+- layer: 3
+  attention_heads:
+  - head: 0
+    type: passthrough
+    slot_v0: 9
+    slot_v1: 4
+  - head: 1
+    type: passthrough
+    slot_v0: 6
+  persist1:
+  - v_new_free
+  - emit_v_gate
+  ffn:
+  - reglu_54
+  persist2:
+  - v_new
+- layer: 4
+  attention_heads: []
+  persist1: []
+  ffn:
+  - reglu_58
+  persist2:
+  - v_score_source

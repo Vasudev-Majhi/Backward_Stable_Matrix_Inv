@@ -1,0 +1,76 @@
+summary:
+  layers: 5
+  milp_d_model: 36
+  max_dep_width: 29
+  max_lin_width: 27
+layers:
+- layer: 0
+  attention: []
+  persist1: [persist_32]
+  after_persist1:
+    dep_width: 29
+    lin_width: 27
+    dims: [init_voltage, inv_log_pos, is_fixed, is_readout_tok, is_update_tok, nbr_off_0, nbr_off_1, nbr_off_2, nbr_off_3, nbr_off_4, nbr_off_5, nbr_valid_0, nbr_valid_1, nbr_valid_2, nbr_valid_3, nbr_valid_4,
+      nbr_valid_5, nbr_w_0, nbr_w_1, nbr_w_2, nbr_w_3, nbr_w_4, nbr_w_5, one, persist_32, position, position_sq, readout_offset, v_value_slot]
+  ffn: [reglu_53]
+  persist2: []
+  after_persist2:
+    dep_width: 29
+    lin_width: 27
+    dims: [inv_log_pos, is_fixed, is_readout_tok, is_update_tok, nbr_off_0, nbr_off_1, nbr_off_2, nbr_off_3, nbr_off_4, nbr_off_5, nbr_valid_0, nbr_valid_1, nbr_valid_2, nbr_valid_3, nbr_valid_4, nbr_valid_5,
+      nbr_w_0, nbr_w_1, nbr_w_2, nbr_w_3, nbr_w_4, nbr_w_5, one, persist_32, position, position_sq, readout_offset, reglu_53, v_value_slot]
+- layer: 1
+  attention: ['v_tos[0]', 'v_tos[1]', 'v_tos[2]', 'v_tos[3]', 'v_tos[4]', v_to_k, target_v]
+  persist1: []
+  after_persist1:
+    dep_width: 27
+    lin_width: 24
+    dims: [inv_log_pos, is_fixed, is_readout_tok, is_update_tok, nbr_valid_0, nbr_valid_1, nbr_valid_2, nbr_valid_3, nbr_valid_4, nbr_valid_5, nbr_w_0, nbr_w_1, nbr_w_2, nbr_w_3, nbr_w_4, nbr_w_5, one,
+      position, position_sq, reglu_53, target_v, v_to_k, 'v_tos[0]', 'v_tos[1]', 'v_tos[2]', 'v_tos[3]', 'v_tos[4]']
+  ffn: [reglu_34, reglu_37, reglu_40, reglu_43, reglu_46, msg_k+]
+  persist2: []
+  after_persist2:
+    dep_width: 21
+    lin_width: 18
+    dims: [inv_log_pos, is_fixed, is_readout_tok, is_update_tok, msg_k+, nbr_valid_0, nbr_valid_1, nbr_valid_2, nbr_valid_3, nbr_valid_4, nbr_valid_5, one, position, position_sq, reglu_34, reglu_37, reglu_40,
+      reglu_43, reglu_46, reglu_53, target_v]
+- layer: 2
+  attention: []
+  persist1: [target_v]
+  after_persist1:
+    dep_width: 21
+    lin_width: 18
+    dims: [inv_log_pos, is_fixed, is_readout_tok, is_update_tok, msg_k+, nbr_valid_0, nbr_valid_1, nbr_valid_2, nbr_valid_3, nbr_valid_4, nbr_valid_5, one, position, position_sq, reglu_34, reglu_37, reglu_40,
+      reglu_43, reglu_46, reglu_53, target_v]
+  ffn: ['msgs[0]+', 'msgs[1]+', 'msgs[2]+', 'msgs[3]+', 'msgs[4]+', 'msgs[5]+', reglu_59]
+  persist2: [sum_wv]
+  after_persist2:
+    dep_width: 10
+    lin_width: 7
+    dims: [inv_log_pos, is_fixed, is_readout_tok, is_update_tok, one, position, position_sq, reglu_53, reglu_59, sum_wv]
+- layer: 3
+  attention: []
+  persist1: [v_new_free, emit_v_gate]
+  after_persist1:
+    dep_width: 10
+    lin_width: 7
+    dims: [emit_v_gate, inv_log_pos, is_fixed, is_update_tok, one, position, position_sq, reglu_53, reglu_59, v_new_free]
+  ffn: [reglu_54]
+  persist2: [v_new]
+  after_persist2:
+    dep_width: 8
+    lin_width: 5
+    dims: [emit_v_gate, inv_log_pos, is_update_tok, one, position, position_sq, reglu_59, v_new]
+- layer: 4
+  attention: []
+  persist1: []
+  after_persist1:
+    dep_width: 8
+    lin_width: 5
+    dims: [emit_v_gate, inv_log_pos, is_update_tok, one, position, position_sq, reglu_59, v_new]
+  ffn: [reglu_58]
+  persist2: [v_score_source]
+  after_persist2:
+    dep_width: 6
+    lin_width: 3
+    dims: [emit_v_gate, inv_log_pos, one, position, position_sq, v_score_source]

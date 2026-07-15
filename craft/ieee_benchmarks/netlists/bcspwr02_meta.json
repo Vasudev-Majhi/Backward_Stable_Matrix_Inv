@@ -1,0 +1,340 @@
+{
+  "case": "bcspwr02",
+  "n_buses": 49,
+  "n_free": 46,
+  "n_sources": 3,
+  "source_capped": false,
+  "source_ids": [
+    0,
+    24,
+    48
+  ],
+  "n_branches": 87,
+  "v_base": 12.0,
+  "r_base_ohms": 1.0,
+  "netlists_written": 46,
+  "targets": [
+    {
+      "target_bus": 1,
+      "truth_vm_pu": 0.940699191,
+      "truth_v": 11.28839029,
+      "target_node": 2,
+      "netlist_file": "bcspwr02_node00001.sp"
+    },
+    {
+      "target_bus": 2,
+      "truth_vm_pu": 0.940015149,
+      "truth_v": 11.280181788,
+      "target_node": 3,
+      "netlist_file": "bcspwr02_node00002.sp"
+    },
+    {
+      "target_bus": 3,
+      "truth_vm_pu": 0.918651734,
+      "truth_v": 11.023820812,
+      "target_node": 4,
+      "netlist_file": "bcspwr02_node00003.sp"
+    },
+    {
+      "target_bus": 4,
+      "truth_vm_pu": 0.903445838,
+      "truth_v": 10.841350059,
+      "target_node": 5,
+      "netlist_file": "bcspwr02_node00004.sp"
+    },
+    {
+      "target_bus": 5,
+      "truth_vm_pu": 0.901393713,
+      "truth_v": 10.816724553,
+      "target_node": 6,
+      "netlist_file": "bcspwr02_node00005.sp"
+    },
+    {
+      "target_bus": 6,
+      "truth_vm_pu": 0.890446759,
+      "truth_v": 10.685361109,
+      "target_node": 7,
+      "netlist_file": "bcspwr02_node00006.sp"
+    },
+    {
+      "target_bus": 7,
+      "truth_vm_pu": 0.876642204,
+      "truth_v": 10.519706453,
+      "target_node": 8,
+      "netlist_file": "bcspwr02_node00007.sp"
+    },
+    {
+      "target_bus": 8,
+      "truth_vm_pu": 0.877790223,
+      "truth_v": 10.533482682,
+      "target_node": 9,
+      "netlist_file": "bcspwr02_node00008.sp"
+    },
+    {
+      "target_bus": 9,
+      "truth_vm_pu": 0.87371923,
+      "truth_v": 10.484630763,
+      "target_node": 10,
+      "netlist_file": "bcspwr02_node00009.sp"
+    },
+    {
+      "target_bus": 10,
+      "truth_vm_pu": 0.865099385,
+      "truth_v": 10.381192617,
+      "target_node": 11,
+      "netlist_file": "bcspwr02_node00010.sp"
+    },
+    {
+      "target_bus": 11,
+      "truth_vm_pu": 0.85431877,
+      "truth_v": 10.251825236,
+      "target_node": 12,
+      "netlist_file": "bcspwr02_node00011.sp"
+    },
+    {
+      "target_bus": 12,
+      "truth_vm_pu": 0.858357451,
+      "truth_v": 10.300289409,
+      "target_node": 13,
+      "netlist_file": "bcspwr02_node00012.sp"
+    },
+    {
+      "target_bus": 13,
+      "truth_vm_pu": 0.856205602,
+      "truth_v": 10.274467222,
+      "target_node": 14,
+      "netlist_file": "bcspwr02_node00013.sp"
+    },
+    {
+      "target_bus": 14,
+      "truth_vm_pu": 0.8505936,
+      "truth_v": 10.2071232,
+      "target_node": 15,
+      "netlist_file": "bcspwr02_node00014.sp"
+    },
+    {
+      "target_bus": 15,
+      "truth_vm_pu": 0.84191278,
+      "truth_v": 10.102953361,
+      "target_node": 16,
+      "netlist_file": "bcspwr02_node00015.sp"
+    },
+    {
+      "target_bus": 16,
+      "truth_vm_pu": 0.832241273,
+      "truth_v": 9.986895278,
+      "target_node": 17,
+      "netlist_file": "bcspwr02_node00016.sp"
+    },
+    {
+      "target_bus": 17,
+      "truth_vm_pu": 0.843292216,
+      "truth_v": 10.119506596,
+      "target_node": 18,
+      "netlist_file": "bcspwr02_node00017.sp"
+    },
+    {
+      "target_bus": 18,
+      "truth_vm_pu": 0.842224546,
+      "truth_v": 10.106694551,
+      "target_node": 19,
+      "netlist_file": "bcspwr02_node00018.sp"
+    },
+    {
+      "target_bus": 19,
+      "truth_vm_pu": 0.838081133,
+      "truth_v": 10.056973599,
+      "target_node": 20,
+      "netlist_file": "bcspwr02_node00019.sp"
+    },
+    {
+      "target_bus": 20,
+      "truth_vm_pu": 0.830536788,
+      "truth_v": 9.966441455,
+      "target_node": 21,
+      "netlist_file": "bcspwr02_node00020.sp"
+    },
+    {
+      "target_bus": 21,
+      "truth_vm_pu": 0.819716862,
+      "truth_v": 9.836602348,
+      "target_node": 22,
+      "netlist_file": "bcspwr02_node00021.sp"
+    },
+    {
+      "target_bus": 22,
+      "truth_vm_pu": 0.807254858,
+      "truth_v": 9.687058295,
+      "target_node": 23,
+      "netlist_file": "bcspwr02_node00022.sp"
+    },
+    {
+      "target_bus": 23,
+      "truth_vm_pu": 0.825478685,
+      "truth_v": 9.905744219,
+      "target_node": 24,
+      "netlist_file": "bcspwr02_node00023.sp"
+    },
+    {
+      "target_bus": 25,
+      "truth_vm_pu": 0.829167383,
+      "truth_v": 9.950008599,
+      "target_node": 26,
+      "netlist_file": "bcspwr02_node00025.sp"
+    },
+    {
+      "target_bus": 26,
+      "truth_vm_pu": 0.823357597,
+      "truth_v": 9.880291167,
+      "target_node": 27,
+      "netlist_file": "bcspwr02_node00026.sp"
+    },
+    {
+      "target_bus": 27,
+      "truth_vm_pu": 0.813755556,
+      "truth_v": 9.765066673,
+      "target_node": 28,
+      "netlist_file": "bcspwr02_node00027.sp"
+    },
+    {
+      "target_bus": 28,
+      "truth_vm_pu": 0.799163023,
+      "truth_v": 9.589956281,
+      "target_node": 29,
+      "netlist_file": "bcspwr02_node00028.sp"
+    },
+    {
+      "target_bus": 29,
+      "truth_vm_pu": 0.777516054,
+      "truth_v": 9.330192642,
+      "target_node": 30,
+      "netlist_file": "bcspwr02_node00029.sp"
+    },
+    {
+      "target_bus": 30,
+      "truth_vm_pu": 0.799545243,
+      "truth_v": 9.594542913,
+      "target_node": 31,
+      "netlist_file": "bcspwr02_node00030.sp"
+    },
+    {
+      "target_bus": 31,
+      "truth_vm_pu": 0.810861448,
+      "truth_v": 9.73033738,
+      "target_node": 32,
+      "netlist_file": "bcspwr02_node00031.sp"
+    },
+    {
+      "target_bus": 32,
+      "truth_vm_pu": 0.817976224,
+      "truth_v": 9.815714684,
+      "target_node": 33,
+      "netlist_file": "bcspwr02_node00032.sp"
+    },
+    {
+      "target_bus": 33,
+      "truth_vm_pu": 0.817754057,
+      "truth_v": 9.813048679,
+      "target_node": 34,
+      "netlist_file": "bcspwr02_node00033.sp"
+    },
+    {
+      "target_bus": 34,
+      "truth_vm_pu": 0.812426316,
+      "truth_v": 9.749115798,
+      "target_node": 35,
+      "netlist_file": "bcspwr02_node00034.sp"
+    },
+    {
+      "target_bus": 35,
+      "truth_vm_pu": 0.801964816,
+      "truth_v": 9.62357779,
+      "target_node": 36,
+      "netlist_file": "bcspwr02_node00035.sp"
+    },
+    {
+      "target_bus": 36,
+      "truth_vm_pu": 0.785663622,
+      "truth_v": 9.42796346,
+      "target_node": 37,
+      "netlist_file": "bcspwr02_node00036.sp"
+    },
+    {
+      "target_bus": 37,
+      "truth_vm_pu": 0.762078952,
+      "truth_v": 9.144947424,
+      "target_node": 38,
+      "netlist_file": "bcspwr02_node00037.sp"
+    },
+    {
+      "target_bus": 38,
+      "truth_vm_pu": 0.741567381,
+      "truth_v": 8.898808568,
+      "target_node": 39,
+      "netlist_file": "bcspwr02_node00038.sp"
+    },
+    {
+      "target_bus": 39,
+      "truth_vm_pu": 0.780519422,
+      "truth_v": 9.366233062,
+      "target_node": 40,
+      "netlist_file": "bcspwr02_node00039.sp"
+    },
+    {
+      "target_bus": 40,
+      "truth_vm_pu": 0.800445642,
+      "truth_v": 9.605347706,
+      "target_node": 41,
+      "netlist_file": "bcspwr02_node00040.sp"
+    },
+    {
+      "target_bus": 41,
+      "truth_vm_pu": 0.809956056,
+      "truth_v": 9.719472675,
+      "target_node": 42,
+      "netlist_file": "bcspwr02_node00041.sp"
+    },
+    {
+      "target_bus": 42,
+      "truth_vm_pu": 0.811446303,
+      "truth_v": 9.737355636,
+      "target_node": 43,
+      "netlist_file": "bcspwr02_node00042.sp"
+    },
+    {
+      "target_bus": 43,
+      "truth_vm_pu": 0.806628796,
+      "truth_v": 9.679545554,
+      "target_node": 44,
+      "netlist_file": "bcspwr02_node00043.sp"
+    },
+    {
+      "target_bus": 44,
+      "truth_vm_pu": 0.796013769,
+      "truth_v": 9.552165229,
+      "target_node": 45,
+      "netlist_file": "bcspwr02_node00044.sp"
+    },
+    {
+      "target_bus": 45,
+      "truth_vm_pu": 0.779447695,
+      "truth_v": 9.353372343,
+      "target_node": 46,
+      "netlist_file": "bcspwr02_node00045.sp"
+    },
+    {
+      "target_bus": 46,
+      "truth_vm_pu": 0.756665695,
+      "truth_v": 9.079988341,
+      "target_node": 47,
+      "netlist_file": "bcspwr02_node00046.sp"
+    },
+    {
+      "target_bus": 47,
+      "truth_vm_pu": 0.728470438,
+      "truth_v": 8.741645255,
+      "target_node": 48,
+      "netlist_file": "bcspwr02_node00047.sp"
+    }
+  ]
+}

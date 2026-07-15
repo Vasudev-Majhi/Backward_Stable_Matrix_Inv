@@ -1,0 +1,54 @@
+[
+  {
+    "circuit": "CKT_0015",
+    "n_layers": 4,
+    "n_heads": 24,
+    "tokens": [
+      "start",
+      "skip",
+      "v_0",
+      "skip",
+      "v_240",
+      "skip",
+      "v_0",
+      "skip",
+      "v_0",
+      "readout",
+      "<PRED>",
+      "halt"
+    ]
+  },
+  {
+    "circuit": "CKT_0067",
+    "n_layers": 4,
+    "n_heads": 24,
+    "tokens": [
+      "start",
+      "skip",
+      "v_0",
+      "skip",
+      "v_479",
+      "skip",
+      "v_479",
+      "skip",
+      "v_0",
+      "skip",
+      "v_0",
+      "skip",
+      "v_100",
+      "skip",
+      "v_0",
+      "skip",
+      "v_66",
+      "skip",
+      "v_0",
+      "skip",
+      "v_0",
+      "skip",
+      "v_0",
+      "readout",
+      "<PRED>",
+      "halt"
+    ]
+  }
+]

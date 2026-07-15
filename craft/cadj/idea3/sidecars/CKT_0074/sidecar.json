@@ -1,0 +1,20 @@
+{
+  "circuit": "CKT_0074",
+  "N": 7,
+  "n_free": 3,
+  "n_fixed": 4,
+  "free_indices": [
+    2,
+    3,
+    5
+  ],
+  "fixed_indices": [
+    0,
+    1,
+    4,
+    6
+  ],
+  "target_node": 4,
+  "target_is_fixed": true,
+  "target_fixed_voltage": 3.3
+}

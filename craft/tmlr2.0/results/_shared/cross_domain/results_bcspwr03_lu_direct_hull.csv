@@ -1,0 +1,2 @@
+case,target_bus,target_node,truth_v,truth_vm_pu,pred_v_lu_direct,ref_v_numpy_solve,abs_error_v,rel_error_pct,abs_error_vs_numpy_v,pass_fail,N,n_free,n_fixed,seq_length,build_status,build_time_s,run_status,run_time_s,n_layers,d_model,error
+bcspwr03,6,7,11.0825,0.923544,,11.082525,,,,,119,115,4,587,built,1580.18,run_error,,4,1132,RuntimeError('Ninja is required to load C++ extensions')

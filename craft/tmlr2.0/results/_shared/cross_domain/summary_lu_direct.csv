@@ -1,0 +1,4 @@
+case,n,pass,fail,err
+lattice8x8_rh1_rv20,25,25,0,0
+lattice8x8_rh1_rv100,25,25,0,0
+polbooks,25,25,0,0

@@ -1,0 +1,2055 @@
+{
+  "case": "300",
+  "n_buses": 300,
+  "n_free": 290,
+  "n_sources": 10,
+  "source_capped": true,
+  "source_ids": [
+    138,
+    146,
+    147,
+    149,
+    152,
+    176,
+    186,
+    187,
+    190,
+    7049
+  ],
+  "n_branches": 411,
+  "v_base": 12.0,
+  "r_base_ohms": 1.0,
+  "netlists_written": 290,
+  "targets": [
+    {
+      "target_bus": 1,
+      "truth_vm_pu": 1.0284,
+      "truth_v": 0.7324,
+      "target_node": 1,
+      "netlist_file": "ieee300_bus00001.sp"
+    },
+    {
+      "target_bus": 2,
+      "truth_vm_pu": 1.0354,
+      "truth_v": 0.8164,
+      "target_node": 2,
+      "netlist_file": "ieee300_bus00002.sp"
+    },
+    {
+      "target_bus": 3,
+      "truth_vm_pu": 0.9971,
+      "truth_v": 0.3568,
+      "target_node": 3,
+      "netlist_file": "ieee300_bus00003.sp"
+    },
+    {
+      "target_bus": 4,
+      "truth_vm_pu": 1.0308,
+      "truth_v": 0.7612,
+      "target_node": 4,
+      "netlist_file": "ieee300_bus00004.sp"
+    },
+    {
+      "target_bus": 5,
+      "truth_vm_pu": 1.0191,
+      "truth_v": 0.6208,
+      "target_node": 5,
+      "netlist_file": "ieee300_bus00005.sp"
+    },
+    {
+      "target_bus": 6,
+      "truth_vm_pu": 1.0312,
+      "truth_v": 0.766,
+      "target_node": 6,
+      "netlist_file": "ieee300_bus00006.sp"
+    },
+    {
+      "target_bus": 7,
+      "truth_vm_pu": 0.9934,
+      "truth_v": 0.3124,
+      "target_node": 7,
+      "netlist_file": "ieee300_bus00007.sp"
+    },
+    {
+      "target_bus": 8,
+      "truth_vm_pu": 1.0153,
+      "truth_v": 0.5752,
+      "target_node": 8,
+      "netlist_file": "ieee300_bus00008.sp"
+    },
+    {
+      "target_bus": 9,
+      "truth_vm_pu": 1.0034,
+      "truth_v": 0.4324,
+      "target_node": 9,
+      "netlist_file": "ieee300_bus00009.sp"
+    },
+    {
+      "target_bus": 10,
+      "truth_vm_pu": 1.0205,
+      "truth_v": 0.6376,
+      "target_node": 10,
+      "netlist_file": "ieee300_bus00010.sp"
+    },
+    {
+      "target_bus": 11,
+      "truth_vm_pu": 1.0057,
+      "truth_v": 0.46,
+      "target_node": 11,
+      "netlist_file": "ieee300_bus00011.sp"
+    },
+    {
+      "target_bus": 12,
+      "truth_vm_pu": 0.9974,
+      "truth_v": 0.3604,
+      "target_node": 12,
+      "netlist_file": "ieee300_bus00012.sp"
+    },
+    {
+      "target_bus": 13,
+      "truth_vm_pu": 0.9977,
+      "truth_v": 0.364,
+      "target_node": 13,
+      "netlist_file": "ieee300_bus00013.sp"
+    },
+    {
+      "target_bus": 14,
+      "truth_vm_pu": 0.9991,
+      "truth_v": 0.3808,
+      "target_node": 14,
+      "netlist_file": "ieee300_bus00014.sp"
+    },
+    {
+      "target_bus": 15,
+      "truth_vm_pu": 1.0343,
+      "truth_v": 0.8032,
+      "target_node": 15,
+      "netlist_file": "ieee300_bus00015.sp"
+    },
+    {
+      "target_bus": 16,
+      "truth_vm_pu": 1.0315,
+      "truth_v": 0.7696,
+      "target_node": 16,
+      "netlist_file": "ieee300_bus00016.sp"
+    },
+    {
+      "target_bus": 17,
+      "truth_vm_pu": 1.0649,
+      "truth_v": 1.1704,
+      "target_node": 17,
+      "netlist_file": "ieee300_bus00017.sp"
+    },
+    {
+      "target_bus": 19,
+      "truth_vm_pu": 0.982,
+      "truth_v": 0.1756,
+      "target_node": 18,
+      "netlist_file": "ieee300_bus00019.sp"
+    },
+    {
+      "target_bus": 20,
+      "truth_vm_pu": 1.001,
+      "truth_v": 0.4036,
+      "target_node": 19,
+      "netlist_file": "ieee300_bus00020.sp"
+    },
+    {
+      "target_bus": 21,
+      "truth_vm_pu": 0.9752,
+      "truth_v": 0.094,
+      "target_node": 20,
+      "netlist_file": "ieee300_bus00021.sp"
+    },
+    {
+      "target_bus": 22,
+      "truth_vm_pu": 0.9963,
+      "truth_v": 0.3472,
+      "target_node": 21,
+      "netlist_file": "ieee300_bus00022.sp"
+    },
+    {
+      "target_bus": 23,
+      "truth_vm_pu": 1.0501,
+      "truth_v": 0.9928,
+      "target_node": 22,
+      "netlist_file": "ieee300_bus00023.sp"
+    },
+    {
+      "target_bus": 24,
+      "truth_vm_pu": 1.0057,
+      "truth_v": 0.46,
+      "target_node": 23,
+      "netlist_file": "ieee300_bus00024.sp"
+    },
+    {
+      "target_bus": 25,
+      "truth_vm_pu": 1.0234,
+      "truth_v": 0.6724,
+      "target_node": 24,
+      "netlist_file": "ieee300_bus00025.sp"
+    },
+    {
+      "target_bus": 26,
+      "truth_vm_pu": 0.9986,
+      "truth_v": 0.3748,
+      "target_node": 25,
+      "netlist_file": "ieee300_bus00026.sp"
+    },
+    {
+      "target_bus": 27,
+      "truth_vm_pu": 0.975,
+      "truth_v": 0.0916,
+      "target_node": 26,
+      "netlist_file": "ieee300_bus00027.sp"
+    },
+    {
+      "target_bus": 33,
+      "truth_vm_pu": 1.0244,
+      "truth_v": 0.6844,
+      "target_node": 27,
+      "netlist_file": "ieee300_bus00033.sp"
+    },
+    {
+      "target_bus": 34,
+      "truth_vm_pu": 1.0414,
+      "truth_v": 0.8884,
+      "target_node": 28,
+      "netlist_file": "ieee300_bus00034.sp"
+    },
+    {
+      "target_bus": 35,
+      "truth_vm_pu": 0.9757,
+      "truth_v": 0.1,
+      "target_node": 29,
+      "netlist_file": "ieee300_bus00035.sp"
+    },
+    {
+      "target_bus": 36,
+      "truth_vm_pu": 1.0011,
+      "truth_v": 0.4048,
+      "target_node": 30,
+      "netlist_file": "ieee300_bus00036.sp"
+    },
+    {
+      "target_bus": 37,
+      "truth_vm_pu": 1.0201,
+      "truth_v": 0.6328,
+      "target_node": 31,
+      "netlist_file": "ieee300_bus00037.sp"
+    },
+    {
+      "target_bus": 38,
+      "truth_vm_pu": 1.0202,
+      "truth_v": 0.634,
+      "target_node": 32,
+      "netlist_file": "ieee300_bus00038.sp"
+    },
+    {
+      "target_bus": 39,
+      "truth_vm_pu": 1.0535,
+      "truth_v": 1.0336,
+      "target_node": 33,
+      "netlist_file": "ieee300_bus00039.sp"
+    },
+    {
+      "target_bus": 40,
+      "truth_vm_pu": 1.0216,
+      "truth_v": 0.6508,
+      "target_node": 34,
+      "netlist_file": "ieee300_bus00040.sp"
+    },
+    {
+      "target_bus": 41,
+      "truth_vm_pu": 1.0292,
+      "truth_v": 0.742,
+      "target_node": 35,
+      "netlist_file": "ieee300_bus00041.sp"
+    },
+    {
+      "target_bus": 42,
+      "truth_vm_pu": 1.0448,
+      "truth_v": 0.9292,
+      "target_node": 36,
+      "netlist_file": "ieee300_bus00042.sp"
+    },
+    {
+      "target_bus": 43,
+      "truth_vm_pu": 1.0006,
+      "truth_v": 0.3988,
+      "target_node": 37,
+      "netlist_file": "ieee300_bus00043.sp"
+    },
+    {
+      "target_bus": 44,
+      "truth_vm_pu": 1.0086,
+      "truth_v": 0.4948,
+      "target_node": 38,
+      "netlist_file": "ieee300_bus00044.sp"
+    },
+    {
+      "target_bus": 45,
+      "truth_vm_pu": 1.0215,
+      "truth_v": 0.6496,
+      "target_node": 39,
+      "netlist_file": "ieee300_bus00045.sp"
+    },
+    {
+      "target_bus": 46,
+      "truth_vm_pu": 1.0344,
+      "truth_v": 0.8044,
+      "target_node": 40,
+      "netlist_file": "ieee300_bus00046.sp"
+    },
+    {
+      "target_bus": 47,
+      "truth_vm_pu": 0.9777,
+      "truth_v": 0.124,
+      "target_node": 41,
+      "netlist_file": "ieee300_bus00047.sp"
+    },
+    {
+      "target_bus": 48,
+      "truth_vm_pu": 1.0019,
+      "truth_v": 0.4144,
+      "target_node": 42,
+      "netlist_file": "ieee300_bus00048.sp"
+    },
+    {
+      "target_bus": 49,
+      "truth_vm_pu": 1.0475,
+      "truth_v": 0.9616,
+      "target_node": 43,
+      "netlist_file": "ieee300_bus00049.sp"
+    },
+    {
+      "target_bus": 51,
+      "truth_vm_pu": 1.0253,
+      "truth_v": 0.6952,
+      "target_node": 44,
+      "netlist_file": "ieee300_bus00051.sp"
+    },
+    {
+      "target_bus": 52,
+      "truth_vm_pu": 0.9979,
+      "truth_v": 0.3664,
+      "target_node": 45,
+      "netlist_file": "ieee300_bus00052.sp"
+    },
+    {
+      "target_bus": 53,
+      "truth_vm_pu": 0.9959,
+      "truth_v": 0.3424,
+      "target_node": 46,
+      "netlist_file": "ieee300_bus00053.sp"
+    },
+    {
+      "target_bus": 54,
+      "truth_vm_pu": 1.005,
+      "truth_v": 0.4516,
+      "target_node": 47,
+      "netlist_file": "ieee300_bus00054.sp"
+    },
+    {
+      "target_bus": 55,
+      "truth_vm_pu": 1.015,
+      "truth_v": 0.5716,
+      "target_node": 48,
+      "netlist_file": "ieee300_bus00055.sp"
+    },
+    {
+      "target_bus": 57,
+      "truth_vm_pu": 1.0335,
+      "truth_v": 0.7936,
+      "target_node": 49,
+      "netlist_file": "ieee300_bus00057.sp"
+    },
+    {
+      "target_bus": 58,
+      "truth_vm_pu": 0.9918,
+      "truth_v": 0.2932,
+      "target_node": 50,
+      "netlist_file": "ieee300_bus00058.sp"
+    },
+    {
+      "target_bus": 59,
+      "truth_vm_pu": 0.9789,
+      "truth_v": 0.1384,
+      "target_node": 51,
+      "netlist_file": "ieee300_bus00059.sp"
+    },
+    {
+      "target_bus": 60,
+      "truth_vm_pu": 1.0246,
+      "truth_v": 0.6868,
+      "target_node": 52,
+      "netlist_file": "ieee300_bus00060.sp"
+    },
+    {
+      "target_bus": 61,
+      "truth_vm_pu": 0.9906,
+      "truth_v": 0.2788,
+      "target_node": 53,
+      "netlist_file": "ieee300_bus00061.sp"
+    },
+    {
+      "target_bus": 62,
+      "truth_vm_pu": 1.016,
+      "truth_v": 0.5836,
+      "target_node": 54,
+      "netlist_file": "ieee300_bus00062.sp"
+    },
+    {
+      "target_bus": 63,
+      "truth_vm_pu": 0.9583,
+      "truth_v": -0.1088,
+      "target_node": 55,
+      "netlist_file": "ieee300_bus00063.sp"
+    },
+    {
+      "target_bus": 64,
+      "truth_vm_pu": 0.948,
+      "truth_v": -0.2324,
+      "target_node": 56,
+      "netlist_file": "ieee300_bus00064.sp"
+    },
+    {
+      "target_bus": 69,
+      "truth_vm_pu": 0.963,
+      "truth_v": -0.0524,
+      "target_node": 57,
+      "netlist_file": "ieee300_bus00069.sp"
+    },
+    {
+      "target_bus": 70,
+      "truth_vm_pu": 0.9513,
+      "truth_v": -0.1928,
+      "target_node": 58,
+      "netlist_file": "ieee300_bus00070.sp"
+    },
+    {
+      "target_bus": 71,
+      "truth_vm_pu": 0.9793,
+      "truth_v": 0.1432,
+      "target_node": 59,
+      "netlist_file": "ieee300_bus00071.sp"
+    },
+    {
+      "target_bus": 72,
+      "truth_vm_pu": 0.9696,
+      "truth_v": 0.0268,
+      "target_node": 60,
+      "netlist_file": "ieee300_bus00072.sp"
+    },
+    {
+      "target_bus": 73,
+      "truth_vm_pu": 0.9775,
+      "truth_v": 0.1216,
+      "target_node": 61,
+      "netlist_file": "ieee300_bus00073.sp"
+    },
+    {
+      "target_bus": 74,
+      "truth_vm_pu": 0.9964,
+      "truth_v": 0.3484,
+      "target_node": 62,
+      "netlist_file": "ieee300_bus00074.sp"
+    },
+    {
+      "target_bus": 76,
+      "truth_vm_pu": 0.9632,
+      "truth_v": -0.05,
+      "target_node": 63,
+      "netlist_file": "ieee300_bus00076.sp"
+    },
+    {
+      "target_bus": 77,
+      "truth_vm_pu": 0.9837,
+      "truth_v": 0.196,
+      "target_node": 64,
+      "netlist_file": "ieee300_bus00077.sp"
+    },
+    {
+      "target_bus": 78,
+      "truth_vm_pu": 0.99,
+      "truth_v": 0.2716,
+      "target_node": 65,
+      "netlist_file": "ieee300_bus00078.sp"
+    },
+    {
+      "target_bus": 79,
+      "truth_vm_pu": 0.982,
+      "truth_v": 0.1756,
+      "target_node": 66,
+      "netlist_file": "ieee300_bus00079.sp"
+    },
+    {
+      "target_bus": 80,
+      "truth_vm_pu": 0.9872,
+      "truth_v": 0.238,
+      "target_node": 67,
+      "netlist_file": "ieee300_bus00080.sp"
+    },
+    {
+      "target_bus": 81,
+      "truth_vm_pu": 1.034,
+      "truth_v": 0.7996,
+      "target_node": 68,
+      "netlist_file": "ieee300_bus00081.sp"
+    },
+    {
+      "target_bus": 84,
+      "truth_vm_pu": 1.025,
+      "truth_v": 0.6916,
+      "target_node": 69,
+      "netlist_file": "ieee300_bus00084.sp"
+    },
+    {
+      "target_bus": 85,
+      "truth_vm_pu": 0.9872,
+      "truth_v": 0.238,
+      "target_node": 70,
+      "netlist_file": "ieee300_bus00085.sp"
+    },
+    {
+      "target_bus": 86,
+      "truth_vm_pu": 0.9909,
+      "truth_v": 0.2824,
+      "target_node": 71,
+      "netlist_file": "ieee300_bus00086.sp"
+    },
+    {
+      "target_bus": 87,
+      "truth_vm_pu": 0.9921,
+      "truth_v": 0.2968,
+      "target_node": 72,
+      "netlist_file": "ieee300_bus00087.sp"
+    },
+    {
+      "target_bus": 88,
+      "truth_vm_pu": 1.0151,
+      "truth_v": 0.5728,
+      "target_node": 73,
+      "netlist_file": "ieee300_bus00088.sp"
+    },
+    {
+      "target_bus": 89,
+      "truth_vm_pu": 1.0317,
+      "truth_v": 0.772,
+      "target_node": 74,
+      "netlist_file": "ieee300_bus00089.sp"
+    },
+    {
+      "target_bus": 90,
+      "truth_vm_pu": 1.0272,
+      "truth_v": 0.718,
+      "target_node": 75,
+      "netlist_file": "ieee300_bus00090.sp"
+    },
+    {
+      "target_bus": 91,
+      "truth_vm_pu": 1.052,
+      "truth_v": 1.0156,
+      "target_node": 76,
+      "netlist_file": "ieee300_bus00091.sp"
+    },
+    {
+      "target_bus": 92,
+      "truth_vm_pu": 1.052,
+      "truth_v": 1.0156,
+      "target_node": 77,
+      "netlist_file": "ieee300_bus00092.sp"
+    },
+    {
+      "target_bus": 94,
+      "truth_vm_pu": 0.993,
+      "truth_v": 0.3076,
+      "target_node": 78,
+      "netlist_file": "ieee300_bus00094.sp"
+    },
+    {
+      "target_bus": 97,
+      "truth_vm_pu": 1.0183,
+      "truth_v": 0.6112,
+      "target_node": 79,
+      "netlist_file": "ieee300_bus00097.sp"
+    },
+    {
+      "target_bus": 98,
+      "truth_vm_pu": 1.0,
+      "truth_v": 0.3916,
+      "target_node": 80,
+      "netlist_file": "ieee300_bus00098.sp"
+    },
+    {
+      "target_bus": 99,
+      "truth_vm_pu": 0.9894,
+      "truth_v": 0.2644,
+      "target_node": 81,
+      "netlist_file": "ieee300_bus00099.sp"
+    },
+    {
+      "target_bus": 100,
+      "truth_vm_pu": 1.006,
+      "truth_v": 0.4636,
+      "target_node": 82,
+      "netlist_file": "ieee300_bus00100.sp"
+    },
+    {
+      "target_bus": 102,
+      "truth_vm_pu": 1.0008,
+      "truth_v": 0.4012,
+      "target_node": 83,
+      "netlist_file": "ieee300_bus00102.sp"
+    },
+    {
+      "target_bus": 103,
+      "truth_vm_pu": 1.0288,
+      "truth_v": 0.7372,
+      "target_node": 84,
+      "netlist_file": "ieee300_bus00103.sp"
+    },
+    {
+      "target_bus": 104,
+      "truth_vm_pu": 0.9958,
+      "truth_v": 0.3412,
+      "target_node": 85,
+      "netlist_file": "ieee300_bus00104.sp"
+    },
+    {
+      "target_bus": 105,
+      "truth_vm_pu": 1.0223,
+      "truth_v": 0.6592,
+      "target_node": 86,
+      "netlist_file": "ieee300_bus00105.sp"
+    },
+    {
+      "target_bus": 107,
+      "truth_vm_pu": 1.0095,
+      "truth_v": 0.5056,
+      "target_node": 87,
+      "netlist_file": "ieee300_bus00107.sp"
+    },
+    {
+      "target_bus": 108,
+      "truth_vm_pu": 0.99,
+      "truth_v": 0.2716,
+      "target_node": 88,
+      "netlist_file": "ieee300_bus00108.sp"
+    },
+    {
+      "target_bus": 109,
+      "truth_vm_pu": 0.9749,
+      "truth_v": 0.0904,
+      "target_node": 89,
+      "netlist_file": "ieee300_bus00109.sp"
+    },
+    {
+      "target_bus": 110,
+      "truth_vm_pu": 0.973,
+      "truth_v": 0.0676,
+      "target_node": 90,
+      "netlist_file": "ieee300_bus00110.sp"
+    },
+    {
+      "target_bus": 112,
+      "truth_vm_pu": 0.9725,
+      "truth_v": 0.0616,
+      "target_node": 91,
+      "netlist_file": "ieee300_bus00112.sp"
+    },
+    {
+      "target_bus": 113,
+      "truth_vm_pu": 0.97,
+      "truth_v": 0.0316,
+      "target_node": 92,
+      "netlist_file": "ieee300_bus00113.sp"
+    },
+    {
+      "target_bus": 114,
+      "truth_vm_pu": 0.9747,
+      "truth_v": 0.088,
+      "target_node": 93,
+      "netlist_file": "ieee300_bus00114.sp"
+    },
+    {
+      "target_bus": 115,
+      "truth_vm_pu": 0.9603,
+      "truth_v": -0.0848,
+      "target_node": 94,
+      "netlist_file": "ieee300_bus00115.sp"
+    },
+    {
+      "target_bus": 116,
+      "truth_vm_pu": 1.0249,
+      "truth_v": 0.6904,
+      "target_node": 95,
+      "netlist_file": "ieee300_bus00116.sp"
+    },
+    {
+      "target_bus": 117,
+      "truth_vm_pu": 0.9348,
+      "truth_v": -0.3908,
+      "target_node": 96,
+      "netlist_file": "ieee300_bus00117.sp"
+    },
+    {
+      "target_bus": 118,
+      "truth_vm_pu": 0.9298,
+      "truth_v": -0.4508,
+      "target_node": 97,
+      "netlist_file": "ieee300_bus00118.sp"
+    },
+    {
+      "target_bus": 119,
+      "truth_vm_pu": 1.0435,
+      "truth_v": 0.9136,
+      "target_node": 98,
+      "netlist_file": "ieee300_bus00119.sp"
+    },
+    {
+      "target_bus": 120,
+      "truth_vm_pu": 0.9584,
+      "truth_v": -0.1076,
+      "target_node": 99,
+      "netlist_file": "ieee300_bus00120.sp"
+    },
+    {
+      "target_bus": 121,
+      "truth_vm_pu": 0.9871,
+      "truth_v": 0.2368,
+      "target_node": 100,
+      "netlist_file": "ieee300_bus00121.sp"
+    },
+    {
+      "target_bus": 122,
+      "truth_vm_pu": 0.9728,
+      "truth_v": 0.0652,
+      "target_node": 101,
+      "netlist_file": "ieee300_bus00122.sp"
+    },
+    {
+      "target_bus": 123,
+      "truth_vm_pu": 1.0006,
+      "truth_v": 0.3988,
+      "target_node": 102,
+      "netlist_file": "ieee300_bus00123.sp"
+    },
+    {
+      "target_bus": 124,
+      "truth_vm_pu": 1.0233,
+      "truth_v": 0.6712,
+      "target_node": 103,
+      "netlist_file": "ieee300_bus00124.sp"
+    },
+    {
+      "target_bus": 125,
+      "truth_vm_pu": 1.0103,
+      "truth_v": 0.5152,
+      "target_node": 104,
+      "netlist_file": "ieee300_bus00125.sp"
+    },
+    {
+      "target_bus": 126,
+      "truth_vm_pu": 0.9978,
+      "truth_v": 0.3652,
+      "target_node": 105,
+      "netlist_file": "ieee300_bus00126.sp"
+    },
+    {
+      "target_bus": 127,
+      "truth_vm_pu": 1.0001,
+      "truth_v": 0.3928,
+      "target_node": 106,
+      "netlist_file": "ieee300_bus00127.sp"
+    },
+    {
+      "target_bus": 128,
+      "truth_vm_pu": 1.0024,
+      "truth_v": 0.4204,
+      "target_node": 107,
+      "netlist_file": "ieee300_bus00128.sp"
+    },
+    {
+      "target_bus": 129,
+      "truth_vm_pu": 1.0028,
+      "truth_v": 0.4252,
+      "target_node": 108,
+      "netlist_file": "ieee300_bus00129.sp"
+    },
+    {
+      "target_bus": 130,
+      "truth_vm_pu": 1.0191,
+      "truth_v": 0.6208,
+      "target_node": 109,
+      "netlist_file": "ieee300_bus00130.sp"
+    },
+    {
+      "target_bus": 131,
+      "truth_vm_pu": 0.9861,
+      "truth_v": 0.2248,
+      "target_node": 110,
+      "netlist_file": "ieee300_bus00131.sp"
+    },
+    {
+      "target_bus": 132,
+      "truth_vm_pu": 1.0045,
+      "truth_v": 0.4456,
+      "target_node": 111,
+      "netlist_file": "ieee300_bus00132.sp"
+    },
+    {
+      "target_bus": 133,
+      "truth_vm_pu": 1.002,
+      "truth_v": 0.4156,
+      "target_node": 112,
+      "netlist_file": "ieee300_bus00133.sp"
+    },
+    {
+      "target_bus": 134,
+      "truth_vm_pu": 1.022,
+      "truth_v": 0.6556,
+      "target_node": 113,
+      "netlist_file": "ieee300_bus00134.sp"
+    },
+    {
+      "target_bus": 135,
+      "truth_vm_pu": 1.0193,
+      "truth_v": 0.6232,
+      "target_node": 114,
+      "netlist_file": "ieee300_bus00135.sp"
+    },
+    {
+      "target_bus": 136,
+      "truth_vm_pu": 1.0476,
+      "truth_v": 0.9628,
+      "target_node": 115,
+      "netlist_file": "ieee300_bus00136.sp"
+    },
+    {
+      "target_bus": 137,
+      "truth_vm_pu": 1.0471,
+      "truth_v": 0.9568,
+      "target_node": 116,
+      "netlist_file": "ieee300_bus00137.sp"
+    },
+    {
+      "target_bus": 139,
+      "truth_vm_pu": 1.0117,
+      "truth_v": 0.532,
+      "target_node": 118,
+      "netlist_file": "ieee300_bus00139.sp"
+    },
+    {
+      "target_bus": 140,
+      "truth_vm_pu": 1.043,
+      "truth_v": 0.9076,
+      "target_node": 119,
+      "netlist_file": "ieee300_bus00140.sp"
+    },
+    {
+      "target_bus": 141,
+      "truth_vm_pu": 1.051,
+      "truth_v": 1.0036,
+      "target_node": 120,
+      "netlist_file": "ieee300_bus00141.sp"
+    },
+    {
+      "target_bus": 142,
+      "truth_vm_pu": 1.0155,
+      "truth_v": 0.5776,
+      "target_node": 121,
+      "netlist_file": "ieee300_bus00142.sp"
+    },
+    {
+      "target_bus": 143,
+      "truth_vm_pu": 1.0435,
+      "truth_v": 0.9136,
+      "target_node": 122,
+      "netlist_file": "ieee300_bus00143.sp"
+    },
+    {
+      "target_bus": 144,
+      "truth_vm_pu": 1.016,
+      "truth_v": 0.5836,
+      "target_node": 123,
+      "netlist_file": "ieee300_bus00144.sp"
+    },
+    {
+      "target_bus": 145,
+      "truth_vm_pu": 1.0081,
+      "truth_v": 0.4888,
+      "target_node": 124,
+      "netlist_file": "ieee300_bus00145.sp"
+    },
+    {
+      "target_bus": 148,
+      "truth_vm_pu": 1.0577,
+      "truth_v": 1.084,
+      "target_node": 127,
+      "netlist_file": "ieee300_bus00148.sp"
+    },
+    {
+      "target_bus": 150,
+      "truth_vm_pu": 0.9869,
+      "truth_v": 0.2344,
+      "target_node": 129,
+      "netlist_file": "ieee300_bus00150.sp"
+    },
+    {
+      "target_bus": 151,
+      "truth_vm_pu": 1.0048,
+      "truth_v": 0.4492,
+      "target_node": 130,
+      "netlist_file": "ieee300_bus00151.sp"
+    },
+    {
+      "target_bus": 153,
+      "truth_vm_pu": 1.0435,
+      "truth_v": 0.9136,
+      "target_node": 132,
+      "netlist_file": "ieee300_bus00153.sp"
+    },
+    {
+      "target_bus": 154,
+      "truth_vm_pu": 0.9663,
+      "truth_v": -0.0128,
+      "target_node": 133,
+      "netlist_file": "ieee300_bus00154.sp"
+    },
+    {
+      "target_bus": 155,
+      "truth_vm_pu": 1.0177,
+      "truth_v": 0.604,
+      "target_node": 134,
+      "netlist_file": "ieee300_bus00155.sp"
+    },
+    {
+      "target_bus": 156,
+      "truth_vm_pu": 0.963,
+      "truth_v": -0.0524,
+      "target_node": 135,
+      "netlist_file": "ieee300_bus00156.sp"
+    },
+    {
+      "target_bus": 157,
+      "truth_vm_pu": 0.9845,
+      "truth_v": 0.2056,
+      "target_node": 136,
+      "netlist_file": "ieee300_bus00157.sp"
+    },
+    {
+      "target_bus": 158,
+      "truth_vm_pu": 0.9987,
+      "truth_v": 0.376,
+      "target_node": 137,
+      "netlist_file": "ieee300_bus00158.sp"
+    },
+    {
+      "target_bus": 159,
+      "truth_vm_pu": 0.9867,
+      "truth_v": 0.232,
+      "target_node": 138,
+      "netlist_file": "ieee300_bus00159.sp"
+    },
+    {
+      "target_bus": 160,
+      "truth_vm_pu": 0.9998,
+      "truth_v": 0.3892,
+      "target_node": 139,
+      "netlist_file": "ieee300_bus00160.sp"
+    },
+    {
+      "target_bus": 161,
+      "truth_vm_pu": 1.036,
+      "truth_v": 0.8236,
+      "target_node": 140,
+      "netlist_file": "ieee300_bus00161.sp"
+    },
+    {
+      "target_bus": 162,
+      "truth_vm_pu": 0.9918,
+      "truth_v": 0.2932,
+      "target_node": 141,
+      "netlist_file": "ieee300_bus00162.sp"
+    },
+    {
+      "target_bus": 163,
+      "truth_vm_pu": 1.041,
+      "truth_v": 0.8836,
+      "target_node": 142,
+      "netlist_file": "ieee300_bus00163.sp"
+    },
+    {
+      "target_bus": 164,
+      "truth_vm_pu": 0.9839,
+      "truth_v": 0.1984,
+      "target_node": 143,
+      "netlist_file": "ieee300_bus00164.sp"
+    },
+    {
+      "target_bus": 165,
+      "truth_vm_pu": 1.0002,
+      "truth_v": 0.394,
+      "target_node": 144,
+      "netlist_file": "ieee300_bus00165.sp"
+    },
+    {
+      "target_bus": 166,
+      "truth_vm_pu": 0.9973,
+      "truth_v": 0.3592,
+      "target_node": 145,
+      "netlist_file": "ieee300_bus00166.sp"
+    },
+    {
+      "target_bus": 167,
+      "truth_vm_pu": 0.9715,
+      "truth_v": 0.0496,
+      "target_node": 146,
+      "netlist_file": "ieee300_bus00167.sp"
+    },
+    {
+      "target_bus": 168,
+      "truth_vm_pu": 1.0024,
+      "truth_v": 0.4204,
+      "target_node": 147,
+      "netlist_file": "ieee300_bus00168.sp"
+    },
+    {
+      "target_bus": 169,
+      "truth_vm_pu": 0.9879,
+      "truth_v": 0.2464,
+      "target_node": 148,
+      "netlist_file": "ieee300_bus00169.sp"
+    },
+    {
+      "target_bus": 170,
+      "truth_vm_pu": 0.929,
+      "truth_v": -0.4604,
+      "target_node": 149,
+      "netlist_file": "ieee300_bus00170.sp"
+    },
+    {
+      "target_bus": 171,
+      "truth_vm_pu": 0.9829,
+      "truth_v": 0.1864,
+      "target_node": 150,
+      "netlist_file": "ieee300_bus00171.sp"
+    },
+    {
+      "target_bus": 172,
+      "truth_vm_pu": 1.0244,
+      "truth_v": 0.6844,
+      "target_node": 151,
+      "netlist_file": "ieee300_bus00172.sp"
+    },
+    {
+      "target_bus": 173,
+      "truth_vm_pu": 0.9837,
+      "truth_v": 0.196,
+      "target_node": 152,
+      "netlist_file": "ieee300_bus00173.sp"
+    },
+    {
+      "target_bus": 174,
+      "truth_vm_pu": 1.0622,
+      "truth_v": 1.138,
+      "target_node": 153,
+      "netlist_file": "ieee300_bus00174.sp"
+    },
+    {
+      "target_bus": 175,
+      "truth_vm_pu": 0.973,
+      "truth_v": 0.0676,
+      "target_node": 154,
+      "netlist_file": "ieee300_bus00175.sp"
+    },
+    {
+      "target_bus": 177,
+      "truth_vm_pu": 1.0077,
+      "truth_v": 0.484,
+      "target_node": 156,
+      "netlist_file": "ieee300_bus00177.sp"
+    },
+    {
+      "target_bus": 178,
+      "truth_vm_pu": 0.9397,
+      "truth_v": -0.332,
+      "target_node": 157,
+      "netlist_file": "ieee300_bus00178.sp"
+    },
+    {
+      "target_bus": 179,
+      "truth_vm_pu": 0.9699,
+      "truth_v": 0.0304,
+      "target_node": 158,
+      "netlist_file": "ieee300_bus00179.sp"
+    },
+    {
+      "target_bus": 180,
+      "truth_vm_pu": 0.9793,
+      "truth_v": 0.1432,
+      "target_node": 159,
+      "netlist_file": "ieee300_bus00180.sp"
+    },
+    {
+      "target_bus": 181,
+      "truth_vm_pu": 1.0518,
+      "truth_v": 1.0132,
+      "target_node": 160,
+      "netlist_file": "ieee300_bus00181.sp"
+    },
+    {
+      "target_bus": 182,
+      "truth_vm_pu": 1.0447,
+      "truth_v": 0.928,
+      "target_node": 161,
+      "netlist_file": "ieee300_bus00182.sp"
+    },
+    {
+      "target_bus": 183,
+      "truth_vm_pu": 0.9717,
+      "truth_v": 0.052,
+      "target_node": 162,
+      "netlist_file": "ieee300_bus00183.sp"
+    },
+    {
+      "target_bus": 184,
+      "truth_vm_pu": 1.0386,
+      "truth_v": 0.8548,
+      "target_node": 163,
+      "netlist_file": "ieee300_bus00184.sp"
+    },
+    {
+      "target_bus": 185,
+      "truth_vm_pu": 1.0522,
+      "truth_v": 1.018,
+      "target_node": 164,
+      "netlist_file": "ieee300_bus00185.sp"
+    },
+    {
+      "target_bus": 188,
+      "truth_vm_pu": 1.0533,
+      "truth_v": 1.0312,
+      "target_node": 167,
+      "netlist_file": "ieee300_bus00188.sp"
+    },
+    {
+      "target_bus": 189,
+      "truth_vm_pu": 0.9975,
+      "truth_v": 0.3616,
+      "target_node": 168,
+      "netlist_file": "ieee300_bus00189.sp"
+    },
+    {
+      "target_bus": 191,
+      "truth_vm_pu": 1.0435,
+      "truth_v": 0.9136,
+      "target_node": 170,
+      "netlist_file": "ieee300_bus00191.sp"
+    },
+    {
+      "target_bus": 192,
+      "truth_vm_pu": 0.9374,
+      "truth_v": -0.3596,
+      "target_node": 171,
+      "netlist_file": "ieee300_bus00192.sp"
+    },
+    {
+      "target_bus": 193,
+      "truth_vm_pu": 0.9897,
+      "truth_v": 0.268,
+      "target_node": 172,
+      "netlist_file": "ieee300_bus00193.sp"
+    },
+    {
+      "target_bus": 194,
+      "truth_vm_pu": 1.0489,
+      "truth_v": 0.9784,
+      "target_node": 173,
+      "netlist_file": "ieee300_bus00194.sp"
+    },
+    {
+      "target_bus": 195,
+      "truth_vm_pu": 1.0357,
+      "truth_v": 0.82,
+      "target_node": 174,
+      "netlist_file": "ieee300_bus00195.sp"
+    },
+    {
+      "target_bus": 196,
+      "truth_vm_pu": 0.9695,
+      "truth_v": 0.0256,
+      "target_node": 175,
+      "netlist_file": "ieee300_bus00196.sp"
+    },
+    {
+      "target_bus": 197,
+      "truth_vm_pu": 0.9907,
+      "truth_v": 0.28,
+      "target_node": 176,
+      "netlist_file": "ieee300_bus00197.sp"
+    },
+    {
+      "target_bus": 198,
+      "truth_vm_pu": 1.015,
+      "truth_v": 0.5716,
+      "target_node": 177,
+      "netlist_file": "ieee300_bus00198.sp"
+    },
+    {
+      "target_bus": 199,
+      "truth_vm_pu": 0.9528,
+      "truth_v": -0.1748,
+      "target_node": 178,
+      "netlist_file": "ieee300_bus00199.sp"
+    },
+    {
+      "target_bus": 200,
+      "truth_vm_pu": 0.955,
+      "truth_v": -0.1484,
+      "target_node": 179,
+      "netlist_file": "ieee300_bus00200.sp"
+    },
+    {
+      "target_bus": 201,
+      "truth_vm_pu": 0.9692,
+      "truth_v": 0.022,
+      "target_node": 180,
+      "netlist_file": "ieee300_bus00201.sp"
+    },
+    {
+      "target_bus": 202,
+      "truth_vm_pu": 0.9908,
+      "truth_v": 0.2812,
+      "target_node": 181,
+      "netlist_file": "ieee300_bus00202.sp"
+    },
+    {
+      "target_bus": 203,
+      "truth_vm_pu": 1.0033,
+      "truth_v": 0.4312,
+      "target_node": 182,
+      "netlist_file": "ieee300_bus00203.sp"
+    },
+    {
+      "target_bus": 204,
+      "truth_vm_pu": 0.9718,
+      "truth_v": 0.0532,
+      "target_node": 183,
+      "netlist_file": "ieee300_bus00204.sp"
+    },
+    {
+      "target_bus": 205,
+      "truth_vm_pu": 0.9838,
+      "truth_v": 0.1972,
+      "target_node": 184,
+      "netlist_file": "ieee300_bus00205.sp"
+    },
+    {
+      "target_bus": 206,
+      "truth_vm_pu": 0.9992,
+      "truth_v": 0.382,
+      "target_node": 185,
+      "netlist_file": "ieee300_bus00206.sp"
+    },
+    {
+      "target_bus": 207,
+      "truth_vm_pu": 1.0137,
+      "truth_v": 0.556,
+      "target_node": 186,
+      "netlist_file": "ieee300_bus00207.sp"
+    },
+    {
+      "target_bus": 208,
+      "truth_vm_pu": 0.9929,
+      "truth_v": 0.3064,
+      "target_node": 187,
+      "netlist_file": "ieee300_bus00208.sp"
+    },
+    {
+      "target_bus": 209,
+      "truth_vm_pu": 0.9999,
+      "truth_v": 0.3904,
+      "target_node": 188,
+      "netlist_file": "ieee300_bus00209.sp"
+    },
+    {
+      "target_bus": 210,
+      "truth_vm_pu": 0.9788,
+      "truth_v": 0.1372,
+      "target_node": 189,
+      "netlist_file": "ieee300_bus00210.sp"
+    },
+    {
+      "target_bus": 211,
+      "truth_vm_pu": 1.0017,
+      "truth_v": 0.412,
+      "target_node": 190,
+      "netlist_file": "ieee300_bus00211.sp"
+    },
+    {
+      "target_bus": 212,
+      "truth_vm_pu": 1.0132,
+      "truth_v": 0.55,
+      "target_node": 191,
+      "netlist_file": "ieee300_bus00212.sp"
+    },
+    {
+      "target_bus": 213,
+      "truth_vm_pu": 1.01,
+      "truth_v": 0.5116,
+      "target_node": 192,
+      "netlist_file": "ieee300_bus00213.sp"
+    },
+    {
+      "target_bus": 214,
+      "truth_vm_pu": 0.9919,
+      "truth_v": 0.2944,
+      "target_node": 193,
+      "netlist_file": "ieee300_bus00214.sp"
+    },
+    {
+      "target_bus": 215,
+      "truth_vm_pu": 0.9866,
+      "truth_v": 0.2308,
+      "target_node": 194,
+      "netlist_file": "ieee300_bus00215.sp"
+    },
+    {
+      "target_bus": 216,
+      "truth_vm_pu": 0.9751,
+      "truth_v": 0.0928,
+      "target_node": 195,
+      "netlist_file": "ieee300_bus00216.sp"
+    },
+    {
+      "target_bus": 217,
+      "truth_vm_pu": 1.0215,
+      "truth_v": 0.6496,
+      "target_node": 196,
+      "netlist_file": "ieee300_bus00217.sp"
+    },
+    {
+      "target_bus": 218,
+      "truth_vm_pu": 1.0075,
+      "truth_v": 0.4816,
+      "target_node": 197,
+      "netlist_file": "ieee300_bus00218.sp"
+    },
+    {
+      "target_bus": 219,
+      "truth_vm_pu": 1.0554,
+      "truth_v": 1.0564,
+      "target_node": 198,
+      "netlist_file": "ieee300_bus00219.sp"
+    },
+    {
+      "target_bus": 220,
+      "truth_vm_pu": 1.008,
+      "truth_v": 0.4876,
+      "target_node": 199,
+      "netlist_file": "ieee300_bus00220.sp"
+    },
+    {
+      "target_bus": 221,
+      "truth_vm_pu": 1.0,
+      "truth_v": 0.3916,
+      "target_node": 200,
+      "netlist_file": "ieee300_bus00221.sp"
+    },
+    {
+      "target_bus": 222,
+      "truth_vm_pu": 1.05,
+      "truth_v": 0.9916,
+      "target_node": 201,
+      "netlist_file": "ieee300_bus00222.sp"
+    },
+    {
+      "target_bus": 223,
+      "truth_vm_pu": 0.9965,
+      "truth_v": 0.3496,
+      "target_node": 202,
+      "netlist_file": "ieee300_bus00223.sp"
+    },
+    {
+      "target_bus": 224,
+      "truth_vm_pu": 1.0002,
+      "truth_v": 0.394,
+      "target_node": 203,
+      "netlist_file": "ieee300_bus00224.sp"
+    },
+    {
+      "target_bus": 225,
+      "truth_vm_pu": 0.9453,
+      "truth_v": -0.2648,
+      "target_node": 204,
+      "netlist_file": "ieee300_bus00225.sp"
+    },
+    {
+      "target_bus": 226,
+      "truth_vm_pu": 1.018,
+      "truth_v": 0.6076,
+      "target_node": 205,
+      "netlist_file": "ieee300_bus00226.sp"
+    },
+    {
+      "target_bus": 227,
+      "truth_vm_pu": 1.0,
+      "truth_v": 0.3916,
+      "target_node": 206,
+      "netlist_file": "ieee300_bus00227.sp"
+    },
+    {
+      "target_bus": 228,
+      "truth_vm_pu": 1.0423,
+      "truth_v": 0.8992,
+      "target_node": 207,
+      "netlist_file": "ieee300_bus00228.sp"
+    },
+    {
+      "target_bus": 229,
+      "truth_vm_pu": 1.0496,
+      "truth_v": 0.9868,
+      "target_node": 208,
+      "netlist_file": "ieee300_bus00229.sp"
+    },
+    {
+      "target_bus": 230,
+      "truth_vm_pu": 1.04,
+      "truth_v": 0.8716,
+      "target_node": 209,
+      "netlist_file": "ieee300_bus00230.sp"
+    },
+    {
+      "target_bus": 231,
+      "truth_vm_pu": 1.0535,
+      "truth_v": 1.0336,
+      "target_node": 210,
+      "netlist_file": "ieee300_bus00231.sp"
+    },
+    {
+      "target_bus": 232,
+      "truth_vm_pu": 1.0414,
+      "truth_v": 0.8884,
+      "target_node": 211,
+      "netlist_file": "ieee300_bus00232.sp"
+    },
+    {
+      "target_bus": 233,
+      "truth_vm_pu": 1.0,
+      "truth_v": 0.3916,
+      "target_node": 212,
+      "netlist_file": "ieee300_bus00233.sp"
+    },
+    {
+      "target_bus": 234,
+      "truth_vm_pu": 1.0387,
+      "truth_v": 0.856,
+      "target_node": 213,
+      "netlist_file": "ieee300_bus00234.sp"
+    },
+    {
+      "target_bus": 235,
+      "truth_vm_pu": 1.0095,
+      "truth_v": 0.5056,
+      "target_node": 214,
+      "netlist_file": "ieee300_bus00235.sp"
+    },
+    {
+      "target_bus": 236,
+      "truth_vm_pu": 1.0165,
+      "truth_v": 0.5896,
+      "target_node": 215,
+      "netlist_file": "ieee300_bus00236.sp"
+    },
+    {
+      "target_bus": 237,
+      "truth_vm_pu": 1.0558,
+      "truth_v": 1.0612,
+      "target_node": 216,
+      "netlist_file": "ieee300_bus00237.sp"
+    },
+    {
+      "target_bus": 238,
+      "truth_vm_pu": 1.01,
+      "truth_v": 0.5116,
+      "target_node": 217,
+      "netlist_file": "ieee300_bus00238.sp"
+    },
+    {
+      "target_bus": 239,
+      "truth_vm_pu": 1.0,
+      "truth_v": 0.3916,
+      "target_node": 218,
+      "netlist_file": "ieee300_bus00239.sp"
+    },
+    {
+      "target_bus": 240,
+      "truth_vm_pu": 1.0237,
+      "truth_v": 0.676,
+      "target_node": 219,
+      "netlist_file": "ieee300_bus00240.sp"
+    },
+    {
+      "target_bus": 241,
+      "truth_vm_pu": 1.05,
+      "truth_v": 0.9916,
+      "target_node": 220,
+      "netlist_file": "ieee300_bus00241.sp"
+    },
+    {
+      "target_bus": 242,
+      "truth_vm_pu": 0.993,
+      "truth_v": 0.3076,
+      "target_node": 221,
+      "netlist_file": "ieee300_bus00242.sp"
+    },
+    {
+      "target_bus": 243,
+      "truth_vm_pu": 1.01,
+      "truth_v": 0.5116,
+      "target_node": 222,
+      "netlist_file": "ieee300_bus00243.sp"
+    },
+    {
+      "target_bus": 244,
+      "truth_vm_pu": 0.9921,
+      "truth_v": 0.2968,
+      "target_node": 223,
+      "netlist_file": "ieee300_bus00244.sp"
+    },
+    {
+      "target_bus": 245,
+      "truth_vm_pu": 0.9711,
+      "truth_v": 0.0448,
+      "target_node": 224,
+      "netlist_file": "ieee300_bus00245.sp"
+    },
+    {
+      "target_bus": 246,
+      "truth_vm_pu": 0.9651,
+      "truth_v": -0.0272,
+      "target_node": 225,
+      "netlist_file": "ieee300_bus00246.sp"
+    },
+    {
+      "target_bus": 247,
+      "truth_vm_pu": 0.9688,
+      "truth_v": 0.0172,
+      "target_node": 226,
+      "netlist_file": "ieee300_bus00247.sp"
+    },
+    {
+      "target_bus": 248,
+      "truth_vm_pu": 0.976,
+      "truth_v": 0.1036,
+      "target_node": 227,
+      "netlist_file": "ieee300_bus00248.sp"
+    },
+    {
+      "target_bus": 249,
+      "truth_vm_pu": 0.9752,
+      "truth_v": 0.094,
+      "target_node": 228,
+      "netlist_file": "ieee300_bus00249.sp"
+    },
+    {
+      "target_bus": 250,
+      "truth_vm_pu": 1.0196,
+      "truth_v": 0.6268,
+      "target_node": 229,
+      "netlist_file": "ieee300_bus00250.sp"
+    },
+    {
+      "target_bus": 281,
+      "truth_vm_pu": 1.0251,
+      "truth_v": 0.6928,
+      "target_node": 230,
+      "netlist_file": "ieee300_bus00281.sp"
+    },
+    {
+      "target_bus": 319,
+      "truth_vm_pu": 1.0152,
+      "truth_v": 0.574,
+      "target_node": 231,
+      "netlist_file": "ieee300_bus00319.sp"
+    },
+    {
+      "target_bus": 320,
+      "truth_vm_pu": 1.0146,
+      "truth_v": 0.5668,
+      "target_node": 232,
+      "netlist_file": "ieee300_bus00320.sp"
+    },
+    {
+      "target_bus": 322,
+      "truth_vm_pu": 1.0005,
+      "truth_v": 0.3976,
+      "target_node": 233,
+      "netlist_file": "ieee300_bus00322.sp"
+    },
+    {
+      "target_bus": 323,
+      "truth_vm_pu": 0.981,
+      "truth_v": 0.1636,
+      "target_node": 234,
+      "netlist_file": "ieee300_bus00323.sp"
+    },
+    {
+      "target_bus": 324,
+      "truth_vm_pu": 0.975,
+      "truth_v": 0.0916,
+      "target_node": 235,
+      "netlist_file": "ieee300_bus00324.sp"
+    },
+    {
+      "target_bus": 526,
+      "truth_vm_pu": 0.9429,
+      "truth_v": -0.2936,
+      "target_node": 236,
+      "netlist_file": "ieee300_bus00526.sp"
+    },
+    {
+      "target_bus": 528,
+      "truth_vm_pu": 0.9723,
+      "truth_v": 0.0592,
+      "target_node": 237,
+      "netlist_file": "ieee300_bus00528.sp"
+    },
+    {
+      "target_bus": 531,
+      "truth_vm_pu": 0.9604,
+      "truth_v": -0.0836,
+      "target_node": 238,
+      "netlist_file": "ieee300_bus00531.sp"
+    },
+    {
+      "target_bus": 552,
+      "truth_vm_pu": 1.0009,
+      "truth_v": 0.4024,
+      "target_node": 239,
+      "netlist_file": "ieee300_bus00552.sp"
+    },
+    {
+      "target_bus": 562,
+      "truth_vm_pu": 0.9777,
+      "truth_v": 0.124,
+      "target_node": 240,
+      "netlist_file": "ieee300_bus00562.sp"
+    },
+    {
+      "target_bus": 609,
+      "truth_vm_pu": 0.9583,
+      "truth_v": -0.1088,
+      "target_node": 241,
+      "netlist_file": "ieee300_bus00609.sp"
+    },
+    {
+      "target_bus": 664,
+      "truth_vm_pu": 1.0309,
+      "truth_v": 0.7624,
+      "target_node": 242,
+      "netlist_file": "ieee300_bus00664.sp"
+    },
+    {
+      "target_bus": 1190,
+      "truth_vm_pu": 1.0128,
+      "truth_v": 0.5452,
+      "target_node": 243,
+      "netlist_file": "ieee300_bus01190.sp"
+    },
+    {
+      "target_bus": 1200,
+      "truth_vm_pu": 1.0244,
+      "truth_v": 0.6844,
+      "target_node": 244,
+      "netlist_file": "ieee300_bus01200.sp"
+    },
+    {
+      "target_bus": 1201,
+      "truth_vm_pu": 1.0122,
+      "truth_v": 0.538,
+      "target_node": 245,
+      "netlist_file": "ieee300_bus01201.sp"
+    },
+    {
+      "target_bus": 2040,
+      "truth_vm_pu": 0.9653,
+      "truth_v": -0.0248,
+      "target_node": 246,
+      "netlist_file": "ieee300_bus02040.sp"
+    },
+    {
+      "target_bus": 7001,
+      "truth_vm_pu": 1.0507,
+      "truth_v": 1.0,
+      "target_node": 247,
+      "netlist_file": "ieee300_bus07001.sp"
+    },
+    {
+      "target_bus": 7002,
+      "truth_vm_pu": 1.0507,
+      "truth_v": 1.0,
+      "target_node": 248,
+      "netlist_file": "ieee300_bus07002.sp"
+    },
+    {
+      "target_bus": 7003,
+      "truth_vm_pu": 1.0323,
+      "truth_v": 0.7792,
+      "target_node": 249,
+      "netlist_file": "ieee300_bus07003.sp"
+    },
+    {
+      "target_bus": 7011,
+      "truth_vm_pu": 1.0145,
+      "truth_v": 0.5656,
+      "target_node": 250,
+      "netlist_file": "ieee300_bus07011.sp"
+    },
+    {
+      "target_bus": 7012,
+      "truth_vm_pu": 1.0507,
+      "truth_v": 1.0,
+      "target_node": 251,
+      "netlist_file": "ieee300_bus07012.sp"
+    },
+    {
+      "target_bus": 7017,
+      "truth_vm_pu": 1.0507,
+      "truth_v": 1.0,
+      "target_node": 252,
+      "netlist_file": "ieee300_bus07017.sp"
+    },
+    {
+      "target_bus": 7023,
+      "truth_vm_pu": 1.0507,
+      "truth_v": 1.0,
+      "target_node": 253,
+      "netlist_file": "ieee300_bus07023.sp"
+    },
+    {
+      "target_bus": 7024,
+      "truth_vm_pu": 1.029,
+      "truth_v": 0.7396,
+      "target_node": 254,
+      "netlist_file": "ieee300_bus07024.sp"
+    },
+    {
+      "target_bus": 7039,
+      "truth_vm_pu": 1.05,
+      "truth_v": 0.9916,
+      "target_node": 255,
+      "netlist_file": "ieee300_bus07039.sp"
+    },
+    {
+      "target_bus": 7044,
+      "truth_vm_pu": 1.0145,
+      "truth_v": 0.5656,
+      "target_node": 256,
+      "netlist_file": "ieee300_bus07044.sp"
+    },
+    {
+      "target_bus": 7055,
+      "truth_vm_pu": 0.9967,
+      "truth_v": 0.352,
+      "target_node": 257,
+      "netlist_file": "ieee300_bus07055.sp"
+    },
+    {
+      "target_bus": 7057,
+      "truth_vm_pu": 1.0212,
+      "truth_v": 0.646,
+      "target_node": 258,
+      "netlist_file": "ieee300_bus07057.sp"
+    },
+    {
+      "target_bus": 7061,
+      "truth_vm_pu": 1.0145,
+      "truth_v": 0.5656,
+      "target_node": 259,
+      "netlist_file": "ieee300_bus07061.sp"
+    },
+    {
+      "target_bus": 7062,
+      "truth_vm_pu": 1.0017,
+      "truth_v": 0.412,
+      "target_node": 260,
+      "netlist_file": "ieee300_bus07062.sp"
+    },
+    {
+      "target_bus": 7071,
+      "truth_vm_pu": 0.9893,
+      "truth_v": 0.2632,
+      "target_node": 261,
+      "netlist_file": "ieee300_bus07071.sp"
+    },
+    {
+      "target_bus": 7130,
+      "truth_vm_pu": 1.0507,
+      "truth_v": 1.0,
+      "target_node": 262,
+      "netlist_file": "ieee300_bus07130.sp"
+    },
+    {
+      "target_bus": 7139,
+      "truth_vm_pu": 1.0507,
+      "truth_v": 1.0,
+      "target_node": 263,
+      "netlist_file": "ieee300_bus07139.sp"
+    },
+    {
+      "target_bus": 7166,
+      "truth_vm_pu": 1.0145,
+      "truth_v": 0.5656,
+      "target_node": 264,
+      "netlist_file": "ieee300_bus07166.sp"
+    },
+    {
+      "target_bus": 9001,
+      "truth_vm_pu": 1.0117,
+      "truth_v": 0.532,
+      "target_node": 265,
+      "netlist_file": "ieee300_bus09001.sp"
+    },
+    {
+      "target_bus": 9002,
+      "truth_vm_pu": 0.9945,
+      "truth_v": 0.3256,
+      "target_node": 266,
+      "netlist_file": "ieee300_bus09002.sp"
+    },
+    {
+      "target_bus": 9003,
+      "truth_vm_pu": 0.9897,
+      "truth_v": 0.268,
+      "target_node": 267,
+      "netlist_file": "ieee300_bus09003.sp"
+    },
+    {
+      "target_bus": 9004,
+      "truth_vm_pu": 0.9768,
+      "truth_v": 0.1132,
+      "target_node": 268,
+      "netlist_file": "ieee300_bus09004.sp"
+    },
+    {
+      "target_bus": 9005,
+      "truth_vm_pu": 1.0117,
+      "truth_v": 0.532,
+      "target_node": 269,
+      "netlist_file": "ieee300_bus09005.sp"
+    },
+    {
+      "target_bus": 9006,
+      "truth_vm_pu": 1.0029,
+      "truth_v": 0.4264,
+      "target_node": 270,
+      "netlist_file": "ieee300_bus09006.sp"
+    },
+    {
+      "target_bus": 9007,
+      "truth_vm_pu": 0.9913,
+      "truth_v": 0.2872,
+      "target_node": 271,
+      "netlist_file": "ieee300_bus09007.sp"
+    },
+    {
+      "target_bus": 9012,
+      "truth_vm_pu": 1.0023,
+      "truth_v": 0.4192,
+      "target_node": 272,
+      "netlist_file": "ieee300_bus09012.sp"
+    },
+    {
+      "target_bus": 9021,
+      "truth_vm_pu": 0.9887,
+      "truth_v": 0.256,
+      "target_node": 273,
+      "netlist_file": "ieee300_bus09021.sp"
+    },
+    {
+      "target_bus": 9022,
+      "truth_vm_pu": 0.9648,
+      "truth_v": -0.0308,
+      "target_node": 274,
+      "netlist_file": "ieee300_bus09022.sp"
+    },
+    {
+      "target_bus": 9023,
+      "truth_vm_pu": 0.9747,
+      "truth_v": 0.088,
+      "target_node": 275,
+      "netlist_file": "ieee300_bus09023.sp"
+    },
+    {
+      "target_bus": 9024,
+      "truth_vm_pu": 0.9706,
+      "truth_v": 0.0388,
+      "target_node": 276,
+      "netlist_file": "ieee300_bus09024.sp"
+    },
+    {
+      "target_bus": 9025,
+      "truth_vm_pu": 0.9649,
+      "truth_v": -0.0296,
+      "target_node": 277,
+      "netlist_file": "ieee300_bus09025.sp"
+    },
+    {
+      "target_bus": 9026,
+      "truth_vm_pu": 0.9657,
+      "truth_v": -0.02,
+      "target_node": 278,
+      "netlist_file": "ieee300_bus09026.sp"
+    },
+    {
+      "target_bus": 9031,
+      "truth_vm_pu": 0.9318,
+      "truth_v": -0.4268,
+      "target_node": 279,
+      "netlist_file": "ieee300_bus09031.sp"
+    },
+    {
+      "target_bus": 9032,
+      "truth_vm_pu": 0.9441,
+      "truth_v": -0.2792,
+      "target_node": 280,
+      "netlist_file": "ieee300_bus09032.sp"
+    },
+    {
+      "target_bus": 9033,
+      "truth_vm_pu": 0.9286,
+      "truth_v": -0.4652,
+      "target_node": 281,
+      "netlist_file": "ieee300_bus09033.sp"
+    },
+    {
+      "target_bus": 9034,
+      "truth_vm_pu": 0.9973,
+      "truth_v": 0.3592,
+      "target_node": 282,
+      "netlist_file": "ieee300_bus09034.sp"
+    },
+    {
+      "target_bus": 9035,
+      "truth_vm_pu": 0.9506,
+      "truth_v": -0.2012,
+      "target_node": 283,
+      "netlist_file": "ieee300_bus09035.sp"
+    },
+    {
+      "target_bus": 9036,
+      "truth_vm_pu": 0.9598,
+      "truth_v": -0.0908,
+      "target_node": 284,
+      "netlist_file": "ieee300_bus09036.sp"
+    },
+    {
+      "target_bus": 9037,
+      "truth_vm_pu": 0.957,
+      "truth_v": -0.1244,
+      "target_node": 285,
+      "netlist_file": "ieee300_bus09037.sp"
+    },
+    {
+      "target_bus": 9038,
+      "truth_vm_pu": 0.9391,
+      "truth_v": -0.3392,
+      "target_node": 286,
+      "netlist_file": "ieee300_bus09038.sp"
+    },
+    {
+      "target_bus": 9041,
+      "truth_vm_pu": 0.9636,
+      "truth_v": -0.0452,
+      "target_node": 287,
+      "netlist_file": "ieee300_bus09041.sp"
+    },
+    {
+      "target_bus": 9042,
+      "truth_vm_pu": 0.9501,
+      "truth_v": -0.2072,
+      "target_node": 288,
+      "netlist_file": "ieee300_bus09042.sp"
+    },
+    {
+      "target_bus": 9043,
+      "truth_vm_pu": 0.9646,
+      "truth_v": -0.0332,
+      "target_node": 289,
+      "netlist_file": "ieee300_bus09043.sp"
+    },
+    {
+      "target_bus": 9044,
+      "truth_vm_pu": 0.979,
+      "truth_v": 0.1396,
+      "target_node": 290,
+      "netlist_file": "ieee300_bus09044.sp"
+    },
+    {
+      "target_bus": 9051,
+      "truth_vm_pu": 1.0,
+      "truth_v": 0.3916,
+      "target_node": 291,
+      "netlist_file": "ieee300_bus09051.sp"
+    },
+    {
+      "target_bus": 9052,
+      "truth_vm_pu": 0.9786,
+      "truth_v": 0.1348,
+      "target_node": 292,
+      "netlist_file": "ieee300_bus09052.sp"
+    },
+    {
+      "target_bus": 9053,
+      "truth_vm_pu": 1.0,
+      "truth_v": 0.3916,
+      "target_node": 293,
+      "netlist_file": "ieee300_bus09053.sp"
+    },
+    {
+      "target_bus": 9054,
+      "truth_vm_pu": 1.0,
+      "truth_v": 0.3916,
+      "target_node": 294,
+      "netlist_file": "ieee300_bus09054.sp"
+    },
+    {
+      "target_bus": 9055,
+      "truth_vm_pu": 1.0,
+      "truth_v": 0.3916,
+      "target_node": 295,
+      "netlist_file": "ieee300_bus09055.sp"
+    },
+    {
+      "target_bus": 9071,
+      "truth_vm_pu": 0.9752,
+      "truth_v": 0.094,
+      "target_node": 296,
+      "netlist_file": "ieee300_bus09071.sp"
+    },
+    {
+      "target_bus": 9072,
+      "truth_vm_pu": 0.9803,
+      "truth_v": 0.1552,
+      "target_node": 297,
+      "netlist_file": "ieee300_bus09072.sp"
+    },
+    {
+      "target_bus": 9121,
+      "truth_vm_pu": 0.9799,
+      "truth_v": 0.1504,
+      "target_node": 298,
+      "netlist_file": "ieee300_bus09121.sp"
+    },
+    {
+      "target_bus": 9533,
+      "truth_vm_pu": 1.0402,
+      "truth_v": 0.874,
+      "target_node": 299,
+      "netlist_file": "ieee300_bus09533.sp"
+    }
+  ]
+}

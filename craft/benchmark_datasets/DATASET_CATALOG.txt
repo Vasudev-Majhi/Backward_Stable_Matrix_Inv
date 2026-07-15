@@ -1,0 +1,161 @@
+================================================================================
+BENCHMARK DATASET CATALOG
+Compiled Transformer Sparse Linear Solver — Cross-Domain Evaluation
+================================================================================
+
+FULLY PREPARED (edge lists in this directory, ready for load_benchmark.py):
+--------------------------------------------------------------------------------
+
+1. KARATE — Zachary's Karate Club Social Network
+   Nodes : 34  |  Edges : 78  |  Weighted: No (unit R=1)
+   Domain: Social Network
+   File  : karate.edges
+   Source: W.W. Zachary, "An information flow model for conflict and fission in
+           small groups," J. Anthropol. Res. 33, 452-473 (1977)
+   Get   : networkx.generators.social.karate_club_graph()
+           SuiteSparse: https://sparse.tamu.edu/Newman/karate
+   Notes : Classic benchmark for community detection. Two factions (nodes 0-16
+           = instructor side, nodes 17-33 = administrator side) split into two
+           communities. Default test: inject 1A at node 0, ground node 33.
+
+2. DOLPHINS — Bottlenose Dolphin Social Network
+   Nodes : 62  |  Edges : 159  |  Weighted: No (unit R=1)
+   Domain: Biological / Animal Social Network
+   File  : dolphins.edges
+   Source: D. Lusseau, K. Schneider, O.J. Boisseau, P. Haase, E. Slooten,
+           S.M. Dawson, "The bottlenose dolphin community of Doubtful Sound
+           features a large proportion of long-lasting associations,"
+           Behav. Ecol. Sociobiol. 54, 396-405 (2003)
+   Get   : SuiteSparse: https://sparse.tamu.edu/Newman/dolphins
+           GML: https://github.com/RishujeetRai/DolphinsSocialNetworkAnalysis
+   Notes : Undirected network of frequent associations between 62 dolphins off
+           Doubtful Sound, New Zealand. Two gender-based communities.
+
+3. LES MISERABLES — Character Co-appearance Network
+   Nodes : 77  |  Edges : 254  |  Weighted: Yes (integer counts, range 1-31)
+   Domain: Literary / Humanities Network
+   Files : lesmis.edges, lesmis_nodes.txt
+   Source: D.E. Knuth, "The Stanford GraphBase: A Platform for Combinatorial
+           Computing," Addison-Wesley (1993)
+   Get   : JSON: https://raw.githubusercontent.com/vega/vega-datasets/master/data/miserables.json
+           SuiteSparse: https://sparse.tamu.edu/Newman/lesmis
+   Notes : Characters are nodes; edges connect characters appearing in the same
+           chapter. Edge weight = number of shared chapters (used as conductance
+           in the resistor network model). Most connected node: Valjean (ID 11).
+
+4. POLBOOKS — US Political Books Co-purchase Network
+   Nodes : 105  |  Edges : 441  |  Weighted: No (unit R=1)
+   Domain: Recommendation / Political Science Network
+   Files : polbooks.edges, polbooks_nodes.txt
+   Source: V. Krebs (2004), unpublished. Compiled from Amazon.com co-purchase
+           links for political books around the 2004 US presidential election.
+   Get   : SuiteSparse: https://sparse.tamu.edu/Newman/polbooks
+           https://networks.skewed.de/net/polbooks (CSV download)
+   Notes : Books clustered into liberal (blue), conservative (red), neutral
+           (gray). Good community structure. Nodes have book titles in
+           polbooks_nodes.txt.
+
+================================================================================
+ADDITIONAL RECOMMENDED DATASETS (download separately):
+================================================================================
+
+5. FOOTBALL — US College Football Games Network
+   Nodes : 115  |  Edges : 616  |  Weighted: No
+   Domain: Sports / Social Network
+   Source: M. Girvan and M.E.J. Newman, PNAS 99, 7821-7826 (2002)
+   Get   : SuiteSparse: https://sparse.tamu.edu/Newman/football
+           Matrix Market: https://suitesparse-collection-website.herokuapp.com/MM/Newman/football.tar.gz
+   Notes : Games between Division IA colleges during regular season Fall 2000.
+           12 conferences = 12 communities. Strong community structure.
+           Sequence length: 2*115+4 = 234 tokens.
+
+6. ADJNOUN — Adjective-Noun Adjacency Network
+   Nodes : 112  |  Edges : 425  |  Weighted: No
+   Domain: Linguistic Network
+   Source: M.E.J. Newman, Phys. Rev. E 74, 036104 (2006)
+   Get   : SuiteSparse: https://sparse.tamu.edu/Newman/adjnoun
+   Notes : Word adjacency network of adjectives and nouns in the novel
+           "David Copperfield" by Charles Dickens. Bipartite-like structure.
+
+7. JAZZ MUSICIANS COLLABORATION NETWORK
+   Nodes : 198  |  Edges : 2,742  |  Weighted: No
+   Domain: Music / Cultural Network
+   Source: P.M. Gleiser and L. Danon, Adv. Complex Syst. 6, 565 (2003)
+   Get   : Network Repository: https://networkrepository.com/arenas-jazz.php
+           ZIP: https://nrvis.com/download/data/misc/arenas-jazz.zip
+           KONECT: http://konect.cc/networks/arenas-jazz/
+   Notes : Jazz musicians who played together in a band. Dense network.
+           Sequence length: 2*198+4 = 400 tokens.
+
+8. C. ELEGANS FRONTAL NEURAL NETWORK
+   Nodes : 131  |  Edges : 764  |  Weighted: No (directed in original; symmetrize)
+   Domain: Neuroscience / Biological Network
+   Source: J.G. White et al., Phil. Trans. R. Soc. Lond. B 314, 1-340 (1986)
+           Dataset: SNAP https://snap.stanford.edu/data/C-elegans-frontal.html
+   Get   : https://snap.stanford.edu/data/C-elegans-frontal.txt.gz
+   Notes : Synaptic connections between neurons in C. elegans frontal ganglia.
+           Symmetrize by treating as undirected (add edge if either direction
+           exists). Full connectome (297 nodes) available from Newman/celegansneural.
+
+9. HB/bcsstk03 — Finite Element Stiffness Matrix (Small Structural Mesh)
+   Nodes : 112  |  NNZ   : 640 (320 edges when symmetrized)  |  Weighted: Yes
+   Domain: Structural Engineering / Finite Element Mesh
+   Source: J. Lewis, Boeing Computer Services (1982)
+   Get   : MATLAB: https://suitesparse-collection-website.herokuapp.com/mat/HB/bcsstk03.mat
+           MM    : https://suitesparse-collection-website.herokuapp.com/MM/HB/bcsstk03.tar.gz
+   Notes : Stiffness matrix of a small test structure. Symmetric positive semi-
+           definite. Off-diagonal entries = negative stiffness couplings. Can be
+           used directly as a Laplacian-like system.
+
+10. HB/dwt_162 — Structural Connection Table (DTNSRDC)
+    Nodes : 162  |  NNZ  : 1,182 (591 undirected edges)  |  Weighted: Yes
+    Domain: Structural Engineering / Finite Element Mesh
+    Source: DTNSRDC (David Taylor Naval Ship Research and Development Center)
+    Get   : MATLAB: https://suitesparse-collection-website.herokuapp.com/mat/HB/dwt_162.mat
+            MM    : https://suitesparse-collection-website.herokuapp.com/MM/HB/dwt_162.tar.gz
+    Notes : Symmetric structural mesh. 100% pattern and numeric symmetry.
+
+11. HB/can_144 — Structural Pattern Matrix (Cannes, 1981)
+    Nodes : 144  |  NNZ  : 1,296 (648 undirected edges)  |  Weighted: Yes (binary)
+    Domain: Structural Engineering / Finite Element Mesh
+    Source: L. Marro, Cannes, June 1981
+    Get   : MATLAB: https://suitesparse-collection-website.herokuapp.com/mat/HB/can_144.mat
+
+================================================================================
+SUMMARY TABLE FOR PAPER
+================================================================================
+
+Dataset        | N   | E    | Domain             | Weighted | Source
+---------------|-----|------|--------------------|----------|------------------
+karate         |  34 |   78 | Social             | No       | Zachary 1977
+dolphins       |  62 |  159 | Biological (animal)| No       | Lusseau 2003
+lesmis         |  77 |  254 | Literary (language)| Yes(1-31)| Knuth 1993
+adjnoun        | 112 |  425 | Linguistic         | No       | Newman 2006
+bcsstk03       | 112 |  320 | FE Mesh (struct.)  | Yes      | Lewis 1982 (HB)
+football       | 115 |  616 | Sports/Social      | No       | Girvan-Newman 2002
+polbooks       | 105 |  441 | Recomm./Political  | No       | Krebs 2004
+C.elegans      | 131 |  764 | Neuroscience       | No       | White 1986 (SNAP)
+dwt_162        | 162 |  591 | FE Mesh (naval)    | Yes      | DTNSRDC (HB)
+jazz           | 198 | 2742 | Music/Cultural     | No       | Gleiser 2003
+celegansneural | 297 | 2345 | Neuroscience       | Yes      | Watts-Strogatz 1998
+
+All are undirected, connected (or largest component used), and can be modeled
+as resistor networks with G_ij = edge_weight (or G_ij = 1 for unweighted).
+The Laplacian L is then symmetric positive semi-definite with nullity 1 per
+connected component.
+
+================================================================================
+TOKEN SEQUENCE LENGTH = 2*N + 4 (for the compiled transformer)
+================================================================================
+
+karate    : 2*34  + 4 =  72
+dolphins  : 2*62  + 4 = 128
+lesmis    : 2*77  + 4 = 158
+polbooks  : 2*105 + 4 = 214
+adjnoun   : 2*112 + 4 = 228
+football  : 2*115 + 4 = 234
+C.elegans : 2*131 + 4 = 266
+dwt_162   : 2*162 + 4 = 328
+jazz      : 2*198 + 4 = 400
+celegansneural: 2*297 + 4 = 598
+================================================================================

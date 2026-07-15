@@ -1,0 +1,734 @@
+{
+  "case": "polbooks",
+  "description": "Political books co-purchase network (105 nodes, 441 edges)",
+  "n_buses": 105,
+  "n_free": 102,
+  "n_sources": 3,
+  "source_capped": false,
+  "source_ids": [
+    0,
+    52,
+    104
+  ],
+  "n_branches": 441,
+  "weighted": false,
+  "v_base": 12.0,
+  "r_base_ohms": 1.0,
+  "netlists_written": 102,
+  "targets": [
+    {
+      "target_bus": 1,
+      "truth_vm_pu": 0.934187819,
+      "truth_v": 11.210253831,
+      "target_node": 2,
+      "netlist_file": "polbooks_node00001.sp"
+    },
+    {
+      "target_bus": 2,
+      "truth_vm_pu": 0.931389585,
+      "truth_v": 11.176675014,
+      "target_node": 3,
+      "netlist_file": "polbooks_node00002.sp"
+    },
+    {
+      "target_bus": 3,
+      "truth_vm_pu": 0.899482961,
+      "truth_v": 10.793795538,
+      "target_node": 4,
+      "netlist_file": "polbooks_node00003.sp"
+    },
+    {
+      "target_bus": 4,
+      "truth_vm_pu": 0.911364134,
+      "truth_v": 10.936369607,
+      "target_node": 5,
+      "netlist_file": "polbooks_node00004.sp"
+    },
+    {
+      "target_bus": 5,
+      "truth_vm_pu": 0.92532078,
+      "truth_v": 11.103849358,
+      "target_node": 6,
+      "netlist_file": "polbooks_node00005.sp"
+    },
+    {
+      "target_bus": 6,
+      "truth_vm_pu": 0.911947536,
+      "truth_v": 10.943370427,
+      "target_node": 7,
+      "netlist_file": "polbooks_node00006.sp"
+    },
+    {
+      "target_bus": 7,
+      "truth_vm_pu": 0.888873424,
+      "truth_v": 10.666481092,
+      "target_node": 8,
+      "netlist_file": "polbooks_node00007.sp"
+    },
+    {
+      "target_bus": 8,
+      "truth_vm_pu": 0.890553812,
+      "truth_v": 10.68664574,
+      "target_node": 9,
+      "netlist_file": "polbooks_node00008.sp"
+    },
+    {
+      "target_bus": 9,
+      "truth_vm_pu": 0.881682906,
+      "truth_v": 10.580194873,
+      "target_node": 10,
+      "netlist_file": "polbooks_node00009.sp"
+    },
+    {
+      "target_bus": 10,
+      "truth_vm_pu": 0.893994812,
+      "truth_v": 10.727937746,
+      "target_node": 11,
+      "netlist_file": "polbooks_node00010.sp"
+    },
+    {
+      "target_bus": 11,
+      "truth_vm_pu": 0.890267843,
+      "truth_v": 10.683214111,
+      "target_node": 12,
+      "netlist_file": "polbooks_node00011.sp"
+    },
+    {
+      "target_bus": 12,
+      "truth_vm_pu": 0.892375755,
+      "truth_v": 10.708509056,
+      "target_node": 13,
+      "netlist_file": "polbooks_node00012.sp"
+    },
+    {
+      "target_bus": 13,
+      "truth_vm_pu": 0.892149374,
+      "truth_v": 10.705792487,
+      "target_node": 14,
+      "netlist_file": "polbooks_node00013.sp"
+    },
+    {
+      "target_bus": 14,
+      "truth_vm_pu": 0.887313338,
+      "truth_v": 10.647760057,
+      "target_node": 15,
+      "netlist_file": "polbooks_node00014.sp"
+    },
+    {
+      "target_bus": 15,
+      "truth_vm_pu": 0.894913228,
+      "truth_v": 10.738958732,
+      "target_node": 16,
+      "netlist_file": "polbooks_node00015.sp"
+    },
+    {
+      "target_bus": 16,
+      "truth_vm_pu": 0.896130334,
+      "truth_v": 10.753564005,
+      "target_node": 17,
+      "netlist_file": "polbooks_node00016.sp"
+    },
+    {
+      "target_bus": 17,
+      "truth_vm_pu": 0.892906888,
+      "truth_v": 10.714882659,
+      "target_node": 18,
+      "netlist_file": "polbooks_node00017.sp"
+    },
+    {
+      "target_bus": 18,
+      "truth_vm_pu": 0.901268751,
+      "truth_v": 10.815225007,
+      "target_node": 19,
+      "netlist_file": "polbooks_node00018.sp"
+    },
+    {
+      "target_bus": 19,
+      "truth_vm_pu": 0.88904531,
+      "truth_v": 10.668543722,
+      "target_node": 20,
+      "netlist_file": "polbooks_node00019.sp"
+    },
+    {
+      "target_bus": 20,
+      "truth_vm_pu": 0.887064622,
+      "truth_v": 10.64477546,
+      "target_node": 21,
+      "netlist_file": "polbooks_node00020.sp"
+    },
+    {
+      "target_bus": 21,
+      "truth_vm_pu": 0.893335121,
+      "truth_v": 10.720021454,
+      "target_node": 22,
+      "netlist_file": "polbooks_node00021.sp"
+    },
+    {
+      "target_bus": 22,
+      "truth_vm_pu": 0.887319487,
+      "truth_v": 10.647833847,
+      "target_node": 23,
+      "netlist_file": "polbooks_node00022.sp"
+    },
+    {
+      "target_bus": 23,
+      "truth_vm_pu": 0.892376178,
+      "truth_v": 10.708514133,
+      "target_node": 24,
+      "netlist_file": "polbooks_node00023.sp"
+    },
+    {
+      "target_bus": 24,
+      "truth_vm_pu": 0.889724059,
+      "truth_v": 10.676688708,
+      "target_node": 25,
+      "netlist_file": "polbooks_node00024.sp"
+    },
+    {
+      "target_bus": 25,
+      "truth_vm_pu": 0.895285708,
+      "truth_v": 10.743428496,
+      "target_node": 26,
+      "netlist_file": "polbooks_node00025.sp"
+    },
+    {
+      "target_bus": 26,
+      "truth_vm_pu": 0.890259648,
+      "truth_v": 10.683115773,
+      "target_node": 27,
+      "netlist_file": "polbooks_node00026.sp"
+    },
+    {
+      "target_bus": 27,
+      "truth_vm_pu": 0.890632343,
+      "truth_v": 10.687588111,
+      "target_node": 28,
+      "netlist_file": "polbooks_node00027.sp"
+    },
+    {
+      "target_bus": 28,
+      "truth_vm_pu": 0.880758578,
+      "truth_v": 10.56910294,
+      "target_node": 29,
+      "netlist_file": "polbooks_node00028.sp"
+    },
+    {
+      "target_bus": 29,
+      "truth_vm_pu": 0.901432222,
+      "truth_v": 10.817186658,
+      "target_node": 30,
+      "netlist_file": "polbooks_node00029.sp"
+    },
+    {
+      "target_bus": 30,
+      "truth_vm_pu": 0.867025732,
+      "truth_v": 10.404308781,
+      "target_node": 31,
+      "netlist_file": "polbooks_node00030.sp"
+    },
+    {
+      "target_bus": 31,
+      "truth_vm_pu": 0.87303864,
+      "truth_v": 10.476463676,
+      "target_node": 32,
+      "netlist_file": "polbooks_node00031.sp"
+    },
+    {
+      "target_bus": 32,
+      "truth_vm_pu": 0.891873902,
+      "truth_v": 10.702486818,
+      "target_node": 33,
+      "netlist_file": "polbooks_node00032.sp"
+    },
+    {
+      "target_bus": 33,
+      "truth_vm_pu": 0.89191439,
+      "truth_v": 10.702972675,
+      "target_node": 34,
+      "netlist_file": "polbooks_node00033.sp"
+    },
+    {
+      "target_bus": 34,
+      "truth_vm_pu": 0.891701012,
+      "truth_v": 10.700412141,
+      "target_node": 35,
+      "netlist_file": "polbooks_node00034.sp"
+    },
+    {
+      "target_bus": 35,
+      "truth_vm_pu": 0.891577078,
+      "truth_v": 10.698924941,
+      "target_node": 36,
+      "netlist_file": "polbooks_node00035.sp"
+    },
+    {
+      "target_bus": 36,
+      "truth_vm_pu": 0.89113144,
+      "truth_v": 10.693577286,
+      "target_node": 37,
+      "netlist_file": "polbooks_node00036.sp"
+    },
+    {
+      "target_bus": 37,
+      "truth_vm_pu": 0.891738509,
+      "truth_v": 10.700862104,
+      "target_node": 38,
+      "netlist_file": "polbooks_node00037.sp"
+    },
+    {
+      "target_bus": 38,
+      "truth_vm_pu": 0.892169948,
+      "truth_v": 10.70603938,
+      "target_node": 39,
+      "netlist_file": "polbooks_node00038.sp"
+    },
+    {
+      "target_bus": 39,
+      "truth_vm_pu": 0.891888083,
+      "truth_v": 10.702656994,
+      "target_node": 40,
+      "netlist_file": "polbooks_node00039.sp"
+    },
+    {
+      "target_bus": 40,
+      "truth_vm_pu": 0.890365218,
+      "truth_v": 10.684382614,
+      "target_node": 41,
+      "netlist_file": "polbooks_node00040.sp"
+    },
+    {
+      "target_bus": 41,
+      "truth_vm_pu": 0.889744849,
+      "truth_v": 10.676938186,
+      "target_node": 42,
+      "netlist_file": "polbooks_node00041.sp"
+    },
+    {
+      "target_bus": 42,
+      "truth_vm_pu": 0.89100645,
+      "truth_v": 10.692077396,
+      "target_node": 43,
+      "netlist_file": "polbooks_node00042.sp"
+    },
+    {
+      "target_bus": 43,
+      "truth_vm_pu": 0.890823703,
+      "truth_v": 10.689884438,
+      "target_node": 44,
+      "netlist_file": "polbooks_node00043.sp"
+    },
+    {
+      "target_bus": 44,
+      "truth_vm_pu": 0.891404247,
+      "truth_v": 10.696850968,
+      "target_node": 45,
+      "netlist_file": "polbooks_node00044.sp"
+    },
+    {
+      "target_bus": 45,
+      "truth_vm_pu": 0.888897989,
+      "truth_v": 10.666775869,
+      "target_node": 46,
+      "netlist_file": "polbooks_node00045.sp"
+    },
+    {
+      "target_bus": 46,
+      "truth_vm_pu": 0.886520512,
+      "truth_v": 10.638246144,
+      "target_node": 47,
+      "netlist_file": "polbooks_node00046.sp"
+    },
+    {
+      "target_bus": 47,
+      "truth_vm_pu": 0.890258509,
+      "truth_v": 10.683102105,
+      "target_node": 48,
+      "netlist_file": "polbooks_node00047.sp"
+    },
+    {
+      "target_bus": 48,
+      "truth_vm_pu": 0.882368769,
+      "truth_v": 10.588425228,
+      "target_node": 49,
+      "netlist_file": "polbooks_node00048.sp"
+    },
+    {
+      "target_bus": 49,
+      "truth_vm_pu": 0.875537196,
+      "truth_v": 10.506446348,
+      "target_node": 50,
+      "netlist_file": "polbooks_node00049.sp"
+    },
+    {
+      "target_bus": 50,
+      "truth_vm_pu": 0.876329578,
+      "truth_v": 10.515954938,
+      "target_node": 51,
+      "netlist_file": "polbooks_node00050.sp"
+    },
+    {
+      "target_bus": 51,
+      "truth_vm_pu": 0.843041543,
+      "truth_v": 10.116498519,
+      "target_node": 52,
+      "netlist_file": "polbooks_node00051.sp"
+    },
+    {
+      "target_bus": 53,
+      "truth_vm_pu": 0.885473101,
+      "truth_v": 10.625677215,
+      "target_node": 54,
+      "netlist_file": "polbooks_node00053.sp"
+    },
+    {
+      "target_bus": 54,
+      "truth_vm_pu": 0.890958808,
+      "truth_v": 10.691505701,
+      "target_node": 55,
+      "netlist_file": "polbooks_node00054.sp"
+    },
+    {
+      "target_bus": 55,
+      "truth_vm_pu": 0.892582276,
+      "truth_v": 10.710987314,
+      "target_node": 56,
+      "netlist_file": "polbooks_node00055.sp"
+    },
+    {
+      "target_bus": 56,
+      "truth_vm_pu": 0.888831802,
+      "truth_v": 10.665981625,
+      "target_node": 57,
+      "netlist_file": "polbooks_node00056.sp"
+    },
+    {
+      "target_bus": 57,
+      "truth_vm_pu": 0.885190352,
+      "truth_v": 10.62228423,
+      "target_node": 58,
+      "netlist_file": "polbooks_node00057.sp"
+    },
+    {
+      "target_bus": 58,
+      "truth_vm_pu": 0.857037986,
+      "truth_v": 10.284455828,
+      "target_node": 59,
+      "netlist_file": "polbooks_node00058.sp"
+    },
+    {
+      "target_bus": 59,
+      "truth_vm_pu": 0.867110849,
+      "truth_v": 10.405330184,
+      "target_node": 60,
+      "netlist_file": "polbooks_node00059.sp"
+    },
+    {
+      "target_bus": 60,
+      "truth_vm_pu": 0.867050939,
+      "truth_v": 10.404611266,
+      "target_node": 61,
+      "netlist_file": "polbooks_node00060.sp"
+    },
+    {
+      "target_bus": 61,
+      "truth_vm_pu": 0.867725566,
+      "truth_v": 10.412706797,
+      "target_node": 62,
+      "netlist_file": "polbooks_node00061.sp"
+    },
+    {
+      "target_bus": 62,
+      "truth_vm_pu": 0.86703375,
+      "truth_v": 10.404404999,
+      "target_node": 63,
+      "netlist_file": "polbooks_node00062.sp"
+    },
+    {
+      "target_bus": 63,
+      "truth_vm_pu": 0.866987905,
+      "truth_v": 10.403854862,
+      "target_node": 64,
+      "netlist_file": "polbooks_node00063.sp"
+    },
+    {
+      "target_bus": 64,
+      "truth_vm_pu": 0.839731468,
+      "truth_v": 10.076777612,
+      "target_node": 65,
+      "netlist_file": "polbooks_node00064.sp"
+    },
+    {
+      "target_bus": 65,
+      "truth_vm_pu": 0.837640028,
+      "truth_v": 10.051680339,
+      "target_node": 66,
+      "netlist_file": "polbooks_node00065.sp"
+    },
+    {
+      "target_bus": 66,
+      "truth_vm_pu": 0.862949271,
+      "truth_v": 10.355391247,
+      "target_node": 67,
+      "netlist_file": "polbooks_node00066.sp"
+    },
+    {
+      "target_bus": 67,
+      "truth_vm_pu": 0.801335727,
+      "truth_v": 9.616028724,
+      "target_node": 68,
+      "netlist_file": "polbooks_node00067.sp"
+    },
+    {
+      "target_bus": 68,
+      "truth_vm_pu": 0.850617328,
+      "truth_v": 10.207407939,
+      "target_node": 69,
+      "netlist_file": "polbooks_node00068.sp"
+    },
+    {
+      "target_bus": 69,
+      "truth_vm_pu": 0.808823538,
+      "truth_v": 9.70588246,
+      "target_node": 70,
+      "netlist_file": "polbooks_node00069.sp"
+    },
+    {
+      "target_bus": 70,
+      "truth_vm_pu": 0.862804455,
+      "truth_v": 10.353653455,
+      "target_node": 71,
+      "netlist_file": "polbooks_node00070.sp"
+    },
+    {
+      "target_bus": 71,
+      "truth_vm_pu": 0.868059831,
+      "truth_v": 10.416717977,
+      "target_node": 72,
+      "netlist_file": "polbooks_node00071.sp"
+    },
+    {
+      "target_bus": 72,
+      "truth_vm_pu": 0.867962331,
+      "truth_v": 10.415547966,
+      "target_node": 73,
+      "netlist_file": "polbooks_node00072.sp"
+    },
+    {
+      "target_bus": 73,
+      "truth_vm_pu": 0.867611032,
+      "truth_v": 10.411332384,
+      "target_node": 74,
+      "netlist_file": "polbooks_node00073.sp"
+    },
+    {
+      "target_bus": 74,
+      "truth_vm_pu": 0.867753097,
+      "truth_v": 10.413037164,
+      "target_node": 75,
+      "netlist_file": "polbooks_node00074.sp"
+    },
+    {
+      "target_bus": 75,
+      "truth_vm_pu": 0.868183434,
+      "truth_v": 10.418201211,
+      "target_node": 76,
+      "netlist_file": "polbooks_node00075.sp"
+    },
+    {
+      "target_bus": 76,
+      "truth_vm_pu": 0.86995196,
+      "truth_v": 10.439423519,
+      "target_node": 77,
+      "netlist_file": "polbooks_node00076.sp"
+    },
+    {
+      "target_bus": 77,
+      "truth_vm_pu": 0.870334699,
+      "truth_v": 10.444016388,
+      "target_node": 78,
+      "netlist_file": "polbooks_node00077.sp"
+    },
+    {
+      "target_bus": 78,
+      "truth_vm_pu": 0.868999467,
+      "truth_v": 10.427993599,
+      "target_node": 79,
+      "netlist_file": "polbooks_node00078.sp"
+    },
+    {
+      "target_bus": 79,
+      "truth_vm_pu": 0.867675574,
+      "truth_v": 10.412106882,
+      "target_node": 80,
+      "netlist_file": "polbooks_node00079.sp"
+    },
+    {
+      "target_bus": 80,
+      "truth_vm_pu": 0.866499291,
+      "truth_v": 10.397991493,
+      "target_node": 81,
+      "netlist_file": "polbooks_node00080.sp"
+    },
+    {
+      "target_bus": 81,
+      "truth_vm_pu": 0.867237182,
+      "truth_v": 10.406846181,
+      "target_node": 82,
+      "netlist_file": "polbooks_node00081.sp"
+    },
+    {
+      "target_bus": 82,
+      "truth_vm_pu": 0.868540846,
+      "truth_v": 10.422490158,
+      "target_node": 83,
+      "netlist_file": "polbooks_node00082.sp"
+    },
+    {
+      "target_bus": 83,
+      "truth_vm_pu": 0.867853352,
+      "truth_v": 10.414240221,
+      "target_node": 84,
+      "netlist_file": "polbooks_node00083.sp"
+    },
+    {
+      "target_bus": 84,
+      "truth_vm_pu": 0.867281562,
+      "truth_v": 10.407378742,
+      "target_node": 85,
+      "netlist_file": "polbooks_node00084.sp"
+    },
+    {
+      "target_bus": 85,
+      "truth_vm_pu": 0.862892608,
+      "truth_v": 10.354711294,
+      "target_node": 86,
+      "netlist_file": "polbooks_node00085.sp"
+    },
+    {
+      "target_bus": 86,
+      "truth_vm_pu": 0.867135484,
+      "truth_v": 10.405625814,
+      "target_node": 87,
+      "netlist_file": "polbooks_node00086.sp"
+    },
+    {
+      "target_bus": 87,
+      "truth_vm_pu": 0.867698101,
+      "truth_v": 10.412377218,
+      "target_node": 88,
+      "netlist_file": "polbooks_node00087.sp"
+    },
+    {
+      "target_bus": 88,
+      "truth_vm_pu": 0.866504043,
+      "truth_v": 10.398048513,
+      "target_node": 89,
+      "netlist_file": "polbooks_node00088.sp"
+    },
+    {
+      "target_bus": 89,
+      "truth_vm_pu": 0.866573954,
+      "truth_v": 10.398887444,
+      "target_node": 90,
+      "netlist_file": "polbooks_node00089.sp"
+    },
+    {
+      "target_bus": 90,
+      "truth_vm_pu": 0.865719116,
+      "truth_v": 10.388629389,
+      "target_node": 91,
+      "netlist_file": "polbooks_node00090.sp"
+    },
+    {
+      "target_bus": 91,
+      "truth_vm_pu": 0.86812344,
+      "truth_v": 10.417481278,
+      "target_node": 92,
+      "netlist_file": "polbooks_node00091.sp"
+    },
+    {
+      "target_bus": 92,
+      "truth_vm_pu": 0.867918932,
+      "truth_v": 10.415027187,
+      "target_node": 93,
+      "netlist_file": "polbooks_node00092.sp"
+    },
+    {
+      "target_bus": 93,
+      "truth_vm_pu": 0.867534585,
+      "truth_v": 10.410415023,
+      "target_node": 94,
+      "netlist_file": "polbooks_node00093.sp"
+    },
+    {
+      "target_bus": 94,
+      "truth_vm_pu": 0.868370522,
+      "truth_v": 10.420446258,
+      "target_node": 95,
+      "netlist_file": "polbooks_node00094.sp"
+    },
+    {
+      "target_bus": 95,
+      "truth_vm_pu": 0.869150273,
+      "truth_v": 10.429803279,
+      "target_node": 96,
+      "netlist_file": "polbooks_node00095.sp"
+    },
+    {
+      "target_bus": 96,
+      "truth_vm_pu": 0.866616566,
+      "truth_v": 10.399398794,
+      "target_node": 97,
+      "netlist_file": "polbooks_node00096.sp"
+    },
+    {
+      "target_bus": 97,
+      "truth_vm_pu": 0.866471849,
+      "truth_v": 10.397662194,
+      "target_node": 98,
+      "netlist_file": "polbooks_node00097.sp"
+    },
+    {
+      "target_bus": 98,
+      "truth_vm_pu": 0.867640166,
+      "truth_v": 10.411681997,
+      "target_node": 99,
+      "netlist_file": "polbooks_node00098.sp"
+    },
+    {
+      "target_bus": 99,
+      "truth_vm_pu": 0.866756083,
+      "truth_v": 10.401072998,
+      "target_node": 100,
+      "netlist_file": "polbooks_node00099.sp"
+    },
+    {
+      "target_bus": 100,
+      "truth_vm_pu": 0.867015162,
+      "truth_v": 10.404181939,
+      "target_node": 101,
+      "netlist_file": "polbooks_node00100.sp"
+    },
+    {
+      "target_bus": 101,
+      "truth_vm_pu": 0.867505659,
+      "truth_v": 10.41006791,
+      "target_node": 102,
+      "netlist_file": "polbooks_node00101.sp"
+    },
+    {
+      "target_bus": 102,
+      "truth_vm_pu": 0.872893973,
+      "truth_v": 10.474727676,
+      "target_node": 103,
+      "netlist_file": "polbooks_node00102.sp"
+    },
+    {
+      "target_bus": 103,
+      "truth_vm_pu": 0.734001197,
+      "truth_v": 8.808014362,
+      "target_node": 104,
+      "netlist_file": "polbooks_node00103.sp"
+    }
+  ]
+}

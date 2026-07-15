@@ -1,0 +1,831 @@
+{
+  "circuit_id": "CKT_0067",
+  "n_free": 6,
+  "column": 0,
+  "matrix_A": [
+    [
+      0.086142673992674,
+      -0.002564102564102564,
+      -0.00017857142857142857,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.002564102564102564,
+      0.010897582956259427,
+      -0.008333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.00017857142857142857,
+      -0.008333333333333333,
+      0.008837535014005603,
+      -0.00017857142857142857,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -0.00017857142857142857,
+      0.008611904761904762,
+      0.0,
+      -0.008333333333333333
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.007336363636363637,
+      -0.0006666666666666666
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.008333333333333333,
+      -0.0006666666666666666,
+      0.05149815225424982
+    ]
+  ],
+  "L": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.029765764693125595,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.0020729728982712466,
+      -0.7705801613220495,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -0.07404786294387773,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -0.9691407824958994,
+      -0.09087154068566707,
+      1.0
+    ]
+  ],
+  "U": [
+    [
+      0.086142673992674,
+      -0.002564102564102564,
+      -0.00017857142857142857,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.01082126048268731,
+      -0.008338648648457106,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.002411567619537801,
+      -0.00017857142857142857,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.008598681929236213,
+      0.0,
+      -0.008333333333333333
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.007336363636363637,
+      -0.0006666666666666666
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.043361398039660215
+    ]
+  ],
+  "b": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "x_ref": [
+    11.950369723353266,
+    10.756783708628674,
+    10.389716298923657,
+    0.25548737364801155,
+    0.003761279727907991,
+    0.04139117373302385
+  ],
+  "n_layers": 3,
+  "n_heads": 35,
+  "d_model": 70,
+  "slots": {
+    "x_value": 9,
+    "b_value": 7,
+    "y_input": 8,
+    "x_new": 7
+  },
+  "tokens": [
+    {
+      "pos": 0,
+      "tok": "start",
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        }
+      ],
+      "final_slot_x_new": 0.0
+    },
+    {
+      "pos": 1,
+      "tok": "init_0",
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        }
+      ],
+      "final_slot_x_new": 0.0
+    },
+    {
+      "pos": 2,
+      "tok": "init_1",
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        }
+      ],
+      "final_slot_x_new": 0.0
+    },
+    {
+      "pos": 3,
+      "tok": "init_2",
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        }
+      ],
+      "final_slot_x_new": 0.0
+    },
+    {
+      "pos": 4,
+      "tok": "init_3",
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        }
+      ],
+      "final_slot_x_new": 0.0
+    },
+    {
+      "pos": 5,
+      "tok": "init_4",
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        }
+      ],
+      "final_slot_x_new": 0.0
+    },
+    {
+      "pos": 6,
+      "tok": "init_5",
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        }
+      ],
+      "final_slot_x_new": 0.0
+    },
+    {
+      "pos": 7,
+      "tok": "fwd_0",
+      "inject_slot_b_value": 1.0,
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 1.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 1.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": -1.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 1.0,
+          "post_ffn_x_new": 1.0
+        }
+      ],
+      "final_slot_x_new": 1.0
+    },
+    {
+      "pos": 8,
+      "tok": "fwd_1",
+      "inject_slot_b_value": 0.0,
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 1.0,
+          "ffn_delta_x_new": -1.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.029765764693125595,
+          "post_ffn_x_new": 0.029765764693125595
+        }
+      ],
+      "final_slot_x_new": 0.029765764693125595
+    },
+    {
+      "pos": 9,
+      "tok": "fwd_2",
+      "inject_slot_b_value": 0.0,
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 1.0,
+          "ffn_delta_x_new": -1.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.025009880657374133,
+          "post_ffn_x_new": 0.025009880657374133
+        }
+      ],
+      "final_slot_x_new": 0.025009880657374133
+    },
+    {
+      "pos": 10,
+      "tok": "fwd_3",
+      "inject_slot_b_value": 0.0,
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 1.0,
+          "ffn_delta_x_new": -1.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0018519282151599785,
+          "post_ffn_x_new": 0.0018519282151599785
+        }
+      ],
+      "final_slot_x_new": 0.0018519282151599785
+    },
+    {
+      "pos": 11,
+      "tok": "fwd_4",
+      "inject_slot_b_value": 0.0,
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 1.0,
+          "ffn_delta_x_new": -1.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        }
+      ],
+      "final_slot_x_new": 0.0
+    },
+    {
+      "pos": 12,
+      "tok": "fwd_5",
+      "inject_slot_b_value": 0.0,
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 1.0,
+          "ffn_delta_x_new": -1.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.001794779159566376,
+          "post_ffn_x_new": 0.001794779159566376
+        }
+      ],
+      "final_slot_x_new": 0.001794779159566376
+    },
+    {
+      "pos": 13,
+      "tok": "bck_5",
+      "inject_slot_y_input": 0.001794779159566376,
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.001794779159566376,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.04139117373302385,
+          "post_ffn_x_new": 0.04139117373302385
+        }
+      ],
+      "final_slot_x_new": 0.04139117373302385
+    },
+    {
+      "pos": 14,
+      "tok": "bck_4",
+      "inject_slot_y_input": 0.0,
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.003761279727907991,
+          "post_ffn_x_new": 0.003761279727907991
+        }
+      ],
+      "final_slot_x_new": 0.003761279727907991
+    },
+    {
+      "pos": 15,
+      "tok": "bck_3",
+      "inject_slot_y_input": 0.0018519282151599785,
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0018519282151599785,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.25548737364801155,
+          "post_ffn_x_new": 0.25548737364801155
+        }
+      ],
+      "final_slot_x_new": 0.25548737364801155
+    },
+    {
+      "pos": 16,
+      "tok": "bck_2",
+      "inject_slot_y_input": 0.025009880657374133,
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.025009880657374133,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 10.389716298923659,
+          "post_ffn_x_new": 10.389716298923659
+        }
+      ],
+      "final_slot_x_new": 10.389716298923659
+    },
+    {
+      "pos": 17,
+      "tok": "bck_1",
+      "inject_slot_y_input": 0.029765764693125595,
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.029765764693125595,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 10.756783708628676,
+          "post_ffn_x_new": 10.756783708628676
+        }
+      ],
+      "final_slot_x_new": 10.756783708628676
+    },
+    {
+      "pos": 18,
+      "tok": "bck_0",
+      "inject_slot_y_input": 1.0,
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 1.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 11.950369723353266,
+          "post_ffn_x_new": 11.950369723353266
+        }
+      ],
+      "final_slot_x_new": 11.950369723353266
+    },
+    {
+      "pos": 19,
+      "tok": "halt",
+      "x_init_at_slots": {
+        "slot_x_value": 0.0,
+        "slot_b_value": 0.0,
+        "slot_y_input": 0.0,
+        "slot_x_new": 0.0
+      },
+      "per_layer": [
+        {
+          "layer": 0,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 1,
+          "attn_delta_x_new": 11.950369723353266,
+          "ffn_delta_x_new": -11.950369723353266,
+          "post_ffn_x_new": 0.0
+        },
+        {
+          "layer": 2,
+          "attn_delta_x_new": 0.0,
+          "ffn_delta_x_new": 0.0,
+          "post_ffn_x_new": 0.0
+        }
+      ],
+      "final_slot_x_new": 0.0
+    }
+  ],
+  "y_buf": [
+    1.0,
+    0.029765764693125595,
+    0.025009880657374133,
+    0.0018519282151599785,
+    0.0,
+    0.001794779159566376
+  ],
+  "x_result": [
+    11.950369723353266,
+    10.756783708628676,
+    10.389716298923659,
+    0.25548737364801155,
+    0.003761279727907991,
+    0.04139117373302385
+  ],
+  "max_abs_err_vs_numpy": 1.7763568394002505e-15
+}

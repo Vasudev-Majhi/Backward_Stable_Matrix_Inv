@@ -1,0 +1,248 @@
+{
+  "case": "lattice6x6_rh1_rv20",
+  "M": 6,
+  "r_h": 1.0,
+  "r_v": 20.0,
+  "kappa_AFF": 217.470373,
+  "n_buses": 36,
+  "n_nodes": 36,
+  "n_free": 32,
+  "n_sources": 4,
+  "source_capped": false,
+  "source_ids": [
+    0,
+    5,
+    30,
+    35
+  ],
+  "n_branches": 60,
+  "v_base": 12.0,
+  "r_base_ohms": 1.0,
+  "netlists_written": 32,
+  "targets": [
+    {
+      "target_bus": 1,
+      "truth_vm_pu": 0.959089952,
+      "truth_v": 11.509079421,
+      "target_node": 2,
+      "netlist_file": "lattice6x6_rh1_rv20_node00001.sp"
+    },
+    {
+      "target_bus": 2,
+      "truth_vm_pu": 0.923408571,
+      "truth_v": 11.08090285,
+      "target_node": 3,
+      "netlist_file": "lattice6x6_rh1_rv20_node00002.sp"
+    },
+    {
+      "target_bus": 3,
+      "truth_vm_pu": 0.891426093,
+      "truth_v": 10.697113117,
+      "target_node": 4,
+      "netlist_file": "lattice6x6_rh1_rv20_node00003.sp"
+    },
+    {
+      "target_bus": 4,
+      "truth_vm_pu": 0.861815915,
+      "truth_v": 10.341790979,
+      "target_node": 5,
+      "netlist_file": "lattice6x6_rh1_rv20_node00004.sp"
+    },
+    {
+      "target_bus": 6,
+      "truth_vm_pu": 0.857923693,
+      "truth_v": 10.295084311,
+      "target_node": 7,
+      "netlist_file": "lattice6x6_rh1_rv20_node00006.sp"
+    },
+    {
+      "target_bus": 7,
+      "truth_vm_pu": 0.854516607,
+      "truth_v": 10.254199281,
+      "target_node": 8,
+      "netlist_file": "lattice6x6_rh1_rv20_node00007.sp"
+    },
+    {
+      "target_bus": 8,
+      "truth_vm_pu": 0.849430507,
+      "truth_v": 10.193166079,
+      "target_node": 9,
+      "netlist_file": "lattice6x6_rh1_rv20_node00008.sp"
+    },
+    {
+      "target_bus": 9,
+      "truth_vm_pu": 0.8439801,
+      "truth_v": 10.127761206,
+      "target_node": 10,
+      "netlist_file": "lattice6x6_rh1_rv20_node00009.sp"
+    },
+    {
+      "target_bus": 10,
+      "truth_vm_pu": 0.839263984,
+      "truth_v": 10.071167806,
+      "target_node": 11,
+      "netlist_file": "lattice6x6_rh1_rv20_node00010.sp"
+    },
+    {
+      "target_bus": 11,
+      "truth_vm_pu": 0.836329428,
+      "truth_v": 10.035953137,
+      "target_node": 12,
+      "netlist_file": "lattice6x6_rh1_rv20_node00011.sp"
+    },
+    {
+      "target_bus": 12,
+      "truth_vm_pu": 0.783989102,
+      "truth_v": 9.407869228,
+      "target_node": 13,
+      "netlist_file": "lattice6x6_rh1_rv20_node00012.sp"
+    },
+    {
+      "target_bus": 13,
+      "truth_vm_pu": 0.783523548,
+      "truth_v": 9.40228258,
+      "target_node": 14,
+      "netlist_file": "lattice6x6_rh1_rv20_node00013.sp"
+    },
+    {
+      "target_bus": 14,
+      "truth_vm_pu": 0.782738561,
+      "truth_v": 9.392862727,
+      "target_node": 15,
+      "netlist_file": "lattice6x6_rh1_rv20_node00014.sp"
+    },
+    {
+      "target_bus": 15,
+      "truth_vm_pu": 0.781848319,
+      "truth_v": 9.382179834,
+      "target_node": 16,
+      "netlist_file": "lattice6x6_rh1_rv20_node00015.sp"
+    },
+    {
+      "target_bus": 16,
+      "truth_vm_pu": 0.781080833,
+      "truth_v": 9.37297,
+      "target_node": 17,
+      "netlist_file": "lattice6x6_rh1_rv20_node00016.sp"
+    },
+    {
+      "target_bus": 17,
+      "truth_vm_pu": 0.780634409,
+      "truth_v": 9.367612905,
+      "target_node": 18,
+      "netlist_file": "lattice6x6_rh1_rv20_node00017.sp"
+    },
+    {
+      "target_bus": 18,
+      "truth_vm_pu": 0.719365591,
+      "truth_v": 8.632387095,
+      "target_node": 19,
+      "netlist_file": "lattice6x6_rh1_rv20_node00018.sp"
+    },
+    {
+      "target_bus": 19,
+      "truth_vm_pu": 0.718919167,
+      "truth_v": 8.62703,
+      "target_node": 20,
+      "netlist_file": "lattice6x6_rh1_rv20_node00019.sp"
+    },
+    {
+      "target_bus": 20,
+      "truth_vm_pu": 0.718151681,
+      "truth_v": 8.617820166,
+      "target_node": 21,
+      "netlist_file": "lattice6x6_rh1_rv20_node00020.sp"
+    },
+    {
+      "target_bus": 21,
+      "truth_vm_pu": 0.717261439,
+      "truth_v": 8.607137273,
+      "target_node": 22,
+      "netlist_file": "lattice6x6_rh1_rv20_node00021.sp"
+    },
+    {
+      "target_bus": 22,
+      "truth_vm_pu": 0.716476452,
+      "truth_v": 8.59771742,
+      "target_node": 23,
+      "netlist_file": "lattice6x6_rh1_rv20_node00022.sp"
+    },
+    {
+      "target_bus": 23,
+      "truth_vm_pu": 0.716010898,
+      "truth_v": 8.592130772,
+      "target_node": 24,
+      "netlist_file": "lattice6x6_rh1_rv20_node00023.sp"
+    },
+    {
+      "target_bus": 24,
+      "truth_vm_pu": 0.663670572,
+      "truth_v": 7.964046863,
+      "target_node": 25,
+      "netlist_file": "lattice6x6_rh1_rv20_node00024.sp"
+    },
+    {
+      "target_bus": 25,
+      "truth_vm_pu": 0.660736016,
+      "truth_v": 7.928832194,
+      "target_node": 26,
+      "netlist_file": "lattice6x6_rh1_rv20_node00025.sp"
+    },
+    {
+      "target_bus": 26,
+      "truth_vm_pu": 0.6560199,
+      "truth_v": 7.872238794,
+      "target_node": 27,
+      "netlist_file": "lattice6x6_rh1_rv20_node00026.sp"
+    },
+    {
+      "target_bus": 27,
+      "truth_vm_pu": 0.650569493,
+      "truth_v": 7.806833921,
+      "target_node": 28,
+      "netlist_file": "lattice6x6_rh1_rv20_node00027.sp"
+    },
+    {
+      "target_bus": 28,
+      "truth_vm_pu": 0.645483393,
+      "truth_v": 7.745800719,
+      "target_node": 29,
+      "netlist_file": "lattice6x6_rh1_rv20_node00028.sp"
+    },
+    {
+      "target_bus": 29,
+      "truth_vm_pu": 0.642076307,
+      "truth_v": 7.704915689,
+      "target_node": 30,
+      "netlist_file": "lattice6x6_rh1_rv20_node00029.sp"
+    },
+    {
+      "target_bus": 31,
+      "truth_vm_pu": 0.638184085,
+      "truth_v": 7.658209021,
+      "target_node": 32,
+      "netlist_file": "lattice6x6_rh1_rv20_node00031.sp"
+    },
+    {
+      "target_bus": 32,
+      "truth_vm_pu": 0.608573907,
+      "truth_v": 7.302886883,
+      "target_node": 33,
+      "netlist_file": "lattice6x6_rh1_rv20_node00032.sp"
+    },
+    {
+      "target_bus": 33,
+      "truth_vm_pu": 0.576591429,
+      "truth_v": 6.91909715,
+      "target_node": 34,
+      "netlist_file": "lattice6x6_rh1_rv20_node00033.sp"
+    },
+    {
+      "target_bus": 34,
+      "truth_vm_pu": 0.540910048,
+      "truth_v": 6.490920579,
+      "target_node": 35,
+      "netlist_file": "lattice6x6_rh1_rv20_node00034.sp"
+    }
+  ]
+}

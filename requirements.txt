@@ -1,0 +1,46 @@
+# ============================================================================
+# CRAFT — Matrix Inversion Inside a Transformer via Backward-Stable LU Solves
+# Python dependencies.
+#
+# Reference environment (from the paper): Python 3.11, PyTorch 2.6 + CUDA 12.4,
+# NumPy with MKL BLAS, single NVIDIA RTX 6000 Ada (48 GB).
+#
+#   pip install -r requirements.txt
+#
+# Compiled circuits are deterministic and float64-mandatory (HARD_K = 1e10
+# overflows in float32), so run on CPU/GPU in float64.
+# ============================================================================
+
+# --- Core: build + run the LU pipeline --------------------------------------
+numpy>=2.0
+torch>=2.6              # paper used 2.6; bundled transformer-vm/pyproject.toml lists 2.10
+scipy>=1.11             # LAPACK / sparse reference solves (verification vs NumPy/SciPy)
+
+# --- MILP scheduler ---------------------------------------------------------
+pulp>=3.3.0             # MILP modelling layer
+highspy>=1.13.1         # HiGHS MILP solver backend
+
+# --- Hull KV cache (O(seq log seq) attention) -------------------------------
+# The Hull cache is a C++17 extension
+# (transformer-vm/transformer_vm/attention/hull_ext.cpp), JIT-compiled at
+# import time via torch.utils.cpp_extension. In ADDITION to the two pip
+# packages below it needs a C++17 compiler on PATH:
+#     Linux : g++ or clang  (the paper's build used clang + lld)
+#     macOS : clang         (brew install llvm lld)
+#     Windows: MSVC Build Tools
+# If you cannot build the extension (e.g. Windows without MSVC), the pipeline
+# falls back to the pure-Python brute_hull_cache.py — correct but slower.
+# See README, "Hull KV cache".
+pybind11>=3.0.2
+ninja>=1.13.0
+setuptools>=68.0
+
+# --- Config / IO ------------------------------------------------------------
+pyyaml>=6.0
+
+# --- Figures & analysis -----------------------------------------------------
+matplotlib>=3.7
+pandas>=2.0
+
+# --- Dev / tests (optional) -------------------------------------------------
+pytest>=8.0

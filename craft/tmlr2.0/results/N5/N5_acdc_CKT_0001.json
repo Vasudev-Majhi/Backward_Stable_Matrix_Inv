@@ -1,0 +1,134 @@
+{
+  "circuit": "CKT_0001",
+  "n_free": 1,
+  "baseline_err": 16622.222222222223,
+  "edges": [
+    {
+      "layer": 0,
+      "head": 0,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 0,
+      "head": 1,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 0,
+      "head": 2,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 0,
+      "head": 3,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 0,
+      "head": 4,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 0,
+      "head": 5,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 0,
+      "head": 6,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 0,
+      "head": 7,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 1,
+      "head": 0,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 1,
+      "head": 1,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 1,
+      "head": 2,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 1,
+      "head": 3,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 1,
+      "head": 4,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 1,
+      "head": 5,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 1,
+      "head": 6,
+      "err": 16622.222222222223,
+      "kept": true
+    },
+    {
+      "layer": 1,
+      "head": 7,
+      "err": 16622.222222222223,
+      "kept": true
+    }
+  ],
+  "slots": {
+    "slot_x_value_slot": 9,
+    "slot_b_value_slot": 7,
+    "slot_y_input_slot": 8,
+    "slot_x_new": 7,
+    "slot_of_named": {
+      "position": 0,
+      "inv_log_pos": 1,
+      "position_sq": 2,
+      "one": 3,
+      "is_init_tok": 4,
+      "is_fwd_tok": 5,
+      "is_bck_tok": 6,
+      "b_value_slot": 7,
+      "y_input_slot": 8,
+      "x_value_slot": 9,
+      "node_id": 10,
+      "inv_l_pos": 11,
+      "inv_l_neg": 12,
+      "inv_u_pos": 13,
+      "inv_u_neg": 14,
+      "reglu_15": 3,
+      "reglu_16": 4,
+      "reglu_19": 9,
+      "reglu_20": 10,
+      "x_new": 7
+    },
+    "n": 1,
+    "algorithm": "lu",
+    "matrix_hash": "5eeac4182855"
+  }
+}

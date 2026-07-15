@@ -1,0 +1,2 @@
+n,cache,t1_build_s,t1_infer_s,max_abs_err,median_abs_err,t1_d_model,t1_n_layers,t1_d_ffn,t1_n_params,status,error
+200,hull,255.753,4683.478,1.3877787807814457e-16,1.1709383462843448e-17,2398,3,2000,115056040,ok,
