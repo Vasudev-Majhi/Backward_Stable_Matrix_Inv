@@ -1,0 +1,49 @@
+{
+  "per_circuit": {
+    "CKT_0040": {
+      "n_variants_built": 5,
+      "distinct_schedules": 1,
+      "distinct_weight_hashes": 4,
+      "distinct_slot_maps": 2,
+      "all_results_bit_identical": true,
+      "max_ulp_diff": 0.0,
+      "max_eta": 2.4308848273360997e-19
+    },
+    "CKT_0071": {
+      "n_variants_built": 5,
+      "distinct_schedules": 1,
+      "distinct_weight_hashes": 5,
+      "distinct_slot_maps": 2,
+      "all_results_bit_identical": true,
+      "max_ulp_diff": 0.0,
+      "max_eta": 0.7835529884344118
+    },
+    "CKT_0090": {
+      "n_variants_built": 5,
+      "distinct_schedules": 1,
+      "distinct_weight_hashes": 5,
+      "distinct_slot_maps": 3,
+      "all_results_bit_identical": false,
+      "max_ulp_diff": 1.844419550650294,
+      "max_eta": 1.5378631118145462e-17
+    },
+    "CKT_0119": {
+      "n_variants_built": 5,
+      "distinct_schedules": 1,
+      "distinct_weight_hashes": 5,
+      "distinct_slot_maps": 2,
+      "all_results_bit_identical": true,
+      "max_ulp_diff": 0.0,
+      "max_eta": 2.866082437013923e-17
+    }
+  },
+  "variants": [
+    "highs_seed0_t1",
+    "highs_seed1_t1",
+    "highs_seed7_t1",
+    "highs_seed0_t4",
+    "highs_tl10",
+    "cbc_default"
+  ],
+  "verdict": "Q1 (byte identity of the emitted program) and Q2 (bit identity of the executed result) are different claims; this table separates them."
+}

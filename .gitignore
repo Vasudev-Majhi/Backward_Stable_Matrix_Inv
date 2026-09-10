@@ -1,25 +1,12 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.eggs/
-.pytest_cache/
-.ipynb_checkpoints/
-
-# Compiled C/C++ extension build output (Hull KV cache builds at runtime)
-build/
-dist/
-*.so
-*.pyd
-*.o
-
-# Virtual environments
 .venv/
-venv/
-env/
+__pycache__/
+*.pyc
+revision/models/
+revision/models_K/
+revision/models_sched/
 
-# Editor / OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
+# revision/: compiled model caches (regenerable via the build scripts)
+revision/models/
+revision/models_K/
+revision/models_sched/
+revision/results/*.log

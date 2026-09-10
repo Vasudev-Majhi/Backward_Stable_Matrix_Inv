@@ -1,0 +1,282 @@
+{
+  "n_cells": 480,
+  "n_matrices": 10,
+  "n_broken": 280,
+  "n_healthy": 200,
+  "excluded_fixed_target_circuits": [
+    "CKT_0056",
+    "CKT_0058",
+    "CKT_0071",
+    "CKT_0072",
+    "CKT_0074",
+    "CKT_0077",
+    "CKT_0079",
+    "CKT_0095",
+    "CKT_0100",
+    "CKT_0104",
+    "CKT_0139",
+    "CKT_0151"
+  ],
+  "eta_broken_threshold": 1e-10,
+  "ground_truth": "selector position vs float64 compiler trace, and eta",
+  "proxies": {
+    "outputs all finite": {
+      "green_rate_on_correct_runs": 1.0,
+      "false_reassurance_rate": 0.8571428571428571,
+      "cluster_bootstrap_95CI": [
+        0.8571428571428571,
+        0.8571428571428571
+      ],
+      "n_green_while_broken": 240,
+      "n_broken": 280
+    },
+    "softmax one-hot fraction": {
+      "green_rate_on_correct_runs": 1.0,
+      "false_reassurance_rate": 0.35714285714285715,
+      "cluster_bootstrap_95CI": [
+        0.3142857142857143,
+        0.4
+      ],
+      "n_green_while_broken": 100,
+      "n_broken": 280
+    },
+    "attention entropy": {
+      "green_rate_on_correct_runs": 0.8,
+      "false_reassurance_rate": 0.5,
+      "cluster_bootstrap_95CI": [
+        0.45714285714285713,
+        0.5428571428571428
+      ],
+      "n_green_while_broken": 140,
+      "n_broken": 280
+    },
+    "prediction unchanged (50 mV grid)": {
+      "green_rate_on_correct_runs": 1.0,
+      "false_reassurance_rate": 0.09642857142857143,
+      "cluster_bootstrap_95CI": [
+        0.0,
+        0.26785714285714285
+      ],
+      "n_green_while_broken": 27,
+      "n_broken": 280
+    }
+  },
+  "all_proxies_green_while_broken": {
+    "n": 8,
+    "rate": 0.02857142857142857,
+    "worst_examples": [
+      {
+        "circuit": "CKT_0119",
+        "K": 10000000000.0,
+        "label": "per_channel int8",
+        "hit": 0.9265927977839336,
+        "eta": 1.0
+      },
+      {
+        "circuit": "CKT_0119",
+        "K": 10000000000.0,
+        "label": "prune 10%(nz)",
+        "hit": 0.9158202523853494,
+        "eta": 1.0
+      },
+      {
+        "circuit": "CKT_0119",
+        "K": 100000000.0,
+        "label": "per_channel int8",
+        "hit": 0.9265927977839336,
+        "eta": 1.0
+      },
+      {
+        "circuit": "CKT_0119",
+        "K": 100000000.0,
+        "label": "prune 10%(nz)",
+        "hit": 0.9158202523853494,
+        "eta": 1.0
+      },
+      {
+        "circuit": "CKT_0119",
+        "K": 1000000.0,
+        "label": "per_channel int8",
+        "hit": 0.9265927977839336,
+        "eta": 1.0
+      },
+      {
+        "circuit": "CKT_0119",
+        "K": 1000000.0,
+        "label": "prune 10%(nz)",
+        "hit": 0.9158202523853494,
+        "eta": 1.0
+      },
+      {
+        "circuit": "CKT_0119",
+        "K": 10000.0,
+        "label": "per_channel int8",
+        "hit": 0.9265927977839336,
+        "eta": 1.0
+      },
+      {
+        "circuit": "CKT_0119",
+        "K": 10000.0,
+        "label": "prune 10%(nz)",
+        "hit": 0.9158202523853494,
+        "eta": 1.0
+      }
+    ]
+  },
+  "K_ablation": {
+    "1e+04": {
+      "n": 10,
+      "max_eta": 1.0463251720911072e-16,
+      "min_selector_hit": 1.0
+    },
+    "1e+06": {
+      "n": 10,
+      "max_eta": 1.0463251720911072e-16,
+      "min_selector_hit": 1.0
+    },
+    "1e+08": {
+      "n": 10,
+      "max_eta": 1.0463251720911072e-16,
+      "min_selector_hit": 1.0
+    },
+    "1e+10": {
+      "n": 10,
+      "max_eta": 1.0463251720911072e-16,
+      "min_selector_hit": 1.0
+    }
+  },
+  "by_configuration": [
+    {
+      "label": "bf16",
+      "n": 40,
+      "median_hit": 0.9913213605989343,
+      "max_eta": 0.2798680295289533,
+      "median_eta": 0.06403884725906209,
+      "outputs all finite": 1.0,
+      "softmax one-hot fraction": 0.0,
+      "attention entropy": 0.0,
+      "prediction unchanged (50 mV grid)": 0.075
+    },
+    {
+      "label": "f16",
+      "n": 40,
+      "median_hit": 0.7235616087150016,
+      "max_eta": Infinity,
+      "median_eta": Infinity,
+      "outputs all finite": 0.0,
+      "softmax one-hot fraction": 0.0,
+      "attention entropy": 1.0,
+      "prediction unchanged (50 mV grid)": 0.1
+    },
+    {
+      "label": "f32",
+      "n": 40,
+      "median_hit": 1.0,
+      "max_eta": 2.6332711644002692e-08,
+      "median_eta": 1.617366612570936e-08,
+      "outputs all finite": 1.0,
+      "softmax one-hot fraction": 1.0,
+      "attention entropy": 0.0,
+      "prediction unchanged (50 mV grid)": 1.0
+    },
+    {
+      "label": "f64",
+      "n": 40,
+      "median_hit": 1.0,
+      "max_eta": 1.0463251720911072e-16,
+      "median_eta": 3.0672158623131526e-17,
+      "outputs all finite": 1.0,
+      "softmax one-hot fraction": 1.0,
+      "attention entropy": 1.0,
+      "prediction unchanged (50 mV grid)": 1.0
+    },
+    {
+      "label": "per_channel int8",
+      "n": 40,
+      "median_hit": 0.9238466173389945,
+      "max_eta": 1.0,
+      "median_eta": 1.0,
+      "outputs all finite": 1.0,
+      "softmax one-hot fraction": 1.0,
+      "attention entropy": 1.0,
+      "prediction unchanged (50 mV grid)": 0.1
+    },
+    {
+      "label": "per_tensor int8",
+      "n": 40,
+      "median_hit": 0.8995211878342823,
+      "max_eta": 1.0,
+      "median_eta": 1.0,
+      "outputs all finite": 1.0,
+      "softmax one-hot fraction": 0.0,
+      "attention entropy": 0.0,
+      "prediction unchanged (50 mV grid)": 0.1
+    },
+    {
+      "label": "prune 10%",
+      "n": 40,
+      "median_hit": 1.0,
+      "max_eta": 1.0463251720911072e-16,
+      "median_eta": 3.0672158623131526e-17,
+      "outputs all finite": 1.0,
+      "softmax one-hot fraction": 1.0,
+      "attention entropy": 1.0,
+      "prediction unchanged (50 mV grid)": 1.0
+    },
+    {
+      "label": "prune 10%(nz)",
+      "n": 40,
+      "median_hit": 0.9148748414205783,
+      "max_eta": 1.0,
+      "median_eta": 1.0,
+      "outputs all finite": 1.0,
+      "softmax one-hot fraction": 1.0,
+      "attention entropy": 1.0,
+      "prediction unchanged (50 mV grid)": 0.1
+    },
+    {
+      "label": "prune 50%",
+      "n": 40,
+      "median_hit": 1.0,
+      "max_eta": 1.0463251720911072e-16,
+      "median_eta": 3.0672158623131526e-17,
+      "outputs all finite": 1.0,
+      "softmax one-hot fraction": 1.0,
+      "attention entropy": 1.0,
+      "prediction unchanged (50 mV grid)": 1.0
+    },
+    {
+      "label": "prune 50%(nz)",
+      "n": 40,
+      "median_hit": 0.9054076964241851,
+      "max_eta": 1.0,
+      "median_eta": 1.0,
+      "outputs all finite": 1.0,
+      "softmax one-hot fraction": 0.5,
+      "attention entropy": 0.5,
+      "prediction unchanged (50 mV grid)": 0.1
+    },
+    {
+      "label": "prune 90%",
+      "n": 40,
+      "median_hit": 1.0,
+      "max_eta": 1.0463251720911072e-16,
+      "median_eta": 3.0672158623131526e-17,
+      "outputs all finite": 1.0,
+      "softmax one-hot fraction": 1.0,
+      "attention entropy": 1.0,
+      "prediction unchanged (50 mV grid)": 1.0
+    },
+    {
+      "label": "prune 90%(nz)",
+      "n": 40,
+      "median_hit": 0.8995211878342823,
+      "max_eta": 1.0,
+      "median_eta": 1.0,
+      "outputs all finite": 1.0,
+      "softmax one-hot fraction": 0.0,
+      "attention entropy": 0.0,
+      "prediction unchanged (50 mV grid)": 0.1
+    }
+  ]
+}
