@@ -1,0 +1,23 @@
+{
+  "alpha": 0.3,
+  "K_production": 10000000000.0,
+  "condition_lhs_1_minus_alpha_over_ln2": 0.567191487733311,
+  "exact_gap_min_over_t_1_to_200k": 0.9995669749390996,
+  "exact_gap_lower_bound_closed_form": 0.567191487733311,
+  "closed_form_bound_holds": true,
+  "closed_form_t_max": {
+    "float64": 35737958.62107583,
+    "float32": 1542.3921439652684,
+    "float16": 17.04118662885467,
+    "bfloat16": 6.0249693123643295
+  },
+  "empirical_first_failure_t": {
+    "float64": null,
+    "float32": 5650,
+    "float16": 1,
+    "bfloat16": 11
+  },
+  "paper_claimed_ceiling_p": 601,
+  "paper_enumerated_pairs": 361201,
+  "verdict": "The p <= 601 ceiling is an artifact of exhaustive enumeration. The closed-form margin condition (1 - alpha/ln 2) > c*eps*t^2 licenses exactness to t ~ 3.57e+07 in binary64 -- four orders of magnitude beyond the enumerated range -- and gives a design rule for any (K, position range, precision) triple rather than a table of checked pairs. Note K cancels from the condition: the selector scale K does NOT affect exactness, which answers the reviewers' 'is K = 1e10 necessary?' question in the negative for float64 and identifies K as an overflow/quantization liability with no exactness benefit."
+}

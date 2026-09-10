@@ -1,0 +1,77 @@
+{
+  "n_matrices": 40,
+  "n_solves": 1163,
+  "by_family": {
+    "adversarial": {
+      "n_solves": 40,
+      "max_eta": 1.1795594041209863e-16,
+      "median_eta": 1.1911886284197636e-17,
+      "max_fwd_rel_err": 4.302734274892365e-12,
+      "max_host_rel_diff": 4.304102366720965e-16,
+      "frac_bitwise_host": 0.15,
+      "min_selector_hit": 1.0
+    },
+    "gaussian": {
+      "n_solves": 400,
+      "max_eta": 1.6370649908322901e-16,
+      "median_eta": 1.4398440348112547e-17,
+      "max_fwd_rel_err": 4.302862582856472e-12,
+      "max_host_rel_diff": 1.475168604131445e-15,
+      "frac_bitwise_host": 0.085,
+      "min_selector_hit": 1.0
+    },
+    "identity": {
+      "n_solves": 243,
+      "max_eta": 1.575515377234186e-16,
+      "median_eta": 1.2540408396043469e-17,
+      "max_fwd_rel_err": 4.302710935520401e-12,
+      "max_host_rel_diff": 6.541295128239222e-16,
+      "frac_bitwise_host": 0.102880658436214,
+      "min_selector_hit": 1.0
+    },
+    "ones": {
+      "n_solves": 40,
+      "max_eta": 1.0879459735302768e-16,
+      "median_eta": 1.355729880851069e-17,
+      "max_fwd_rel_err": 4.302731942729213e-12,
+      "max_host_rel_diff": 6.750181644934978e-16,
+      "frac_bitwise_host": 0.15,
+      "min_selector_hit": 1.0
+    },
+    "source": {
+      "n_solves": 40,
+      "max_eta": 1.880342079835586e-16,
+      "median_eta": 4.1622760078118055e-17,
+      "max_fwd_rel_err": 1.5369165359603963e-12,
+      "max_host_rel_diff": 4.2669842090018496e-16,
+      "frac_bitwise_host": 0.075,
+      "min_selector_hit": 1.0
+    },
+    "wide": {
+      "n_solves": 400,
+      "max_eta": 1.779537194840227e-16,
+      "median_eta": 2.106600737724504e-17,
+      "max_fwd_rel_err": 4.302740248885307e-12,
+      "max_host_rel_diff": 7.276413940049264e-16,
+      "frac_bitwise_host": 0.105,
+      "min_selector_hit": 1.0
+    }
+  },
+  "max_of_max_eta": 1.880342079835586e-16,
+  "excluded_fixed_target_circuits": [
+    "CKT_0056",
+    "CKT_0058",
+    "CKT_0071",
+    "CKT_0072",
+    "CKT_0074",
+    "CKT_0077",
+    "CKT_0079",
+    "CKT_0095",
+    "CKT_0100",
+    "CKT_0104",
+    "CKT_0139",
+    "CKT_0151"
+  ],
+  "n_excluded_fixed_target": 12,
+  "u": 1.1102230246251565e-16
+}

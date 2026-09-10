@@ -1,0 +1,71 @@
+{
+  "n_cells": 576,
+  "n_matrices": 12,
+  "eta_broken_threshold": 1e-10,
+  "u": 1.1102230246251565e-16,
+  "n_broken": 416,
+  "proxies": {
+    "outputs_all_finite": {
+      "false_reassurance_rate": 0.8846153846153846,
+      "cluster_bootstrap_95CI": [
+        0.875,
+        0.896551724137931
+      ],
+      "n_broken_cells": 416,
+      "n_green_while_broken": 368
+    },
+    "softmax_exactly_onehot": {
+      "false_reassurance_rate": 0.0,
+      "cluster_bootstrap_95CI": [
+        0.0,
+        0.0
+      ],
+      "n_broken_cells": 416,
+      "n_green_while_broken": 0
+    },
+    "attention_entropy_near_zero": {
+      "false_reassurance_rate": 0.0,
+      "cluster_bootstrap_95CI": [
+        0.0,
+        0.0
+      ],
+      "n_broken_cells": 416,
+      "n_green_while_broken": 0
+    },
+    "prediction_unchanged_on_grid": {
+      "false_reassurance_rate": 0.25721153846153844,
+      "cluster_bootstrap_95CI": [
+        0.140625,
+        0.3888888888888889
+      ],
+      "n_broken_cells": 416,
+      "n_green_while_broken": 107
+    }
+  },
+  "all_four_proxies_green_while_broken": {
+    "n": 0,
+    "examples": []
+  },
+  "K_ablation_float64": {
+    "1e+10": {
+      "n": 12,
+      "max_eta": 0.8923109176174708,
+      "min_selector_hit": 1.0
+    },
+    "1e+08": {
+      "n": 12,
+      "max_eta": 0.8923109176174708,
+      "min_selector_hit": 1.0
+    },
+    "1e+06": {
+      "n": 12,
+      "max_eta": 0.8923109176174708,
+      "min_selector_hit": 1.0
+    },
+    "1e+04": {
+      "n": 12,
+      "max_eta": 0.8923109176174708,
+      "min_selector_hit": 1.0
+    }
+  }
+}
