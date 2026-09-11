@@ -77,6 +77,8 @@ class RecordingCache:
         self.entropy = []      # float per lookup (nats, true)
         self.finite = []       # bool per lookup
         self.tied = []         # bool per lookup: max attained more than once
+        self.lh = []           # (layer, head) per lookup, so proxies can be
+                               # restricted to compiler-labelled lookup heads
 
     def clear(self):
         self._keys = [[] for _ in range(self.n_layers)]
@@ -105,6 +107,7 @@ class RecordingCache:
             oh = (w.max(dim=0).values == 1.0)
             fin = torch.isfinite(out.double()).all(dim=-1)
             for h in range(self.n_heads):
+                self.lh.append((layer, h))
                 self.sel.append(int(am[h]))
                 self.onehot.append(bool(oh[h]))
                 self.entropy.append(float(ent[h]))
@@ -351,4 +354,12 @@ def build_model_for(cid: str, out_dir: str, circuits=None, force=False):
     os.environ.setdefault("MILP_TIME_LIMIT", "60")
     from build_lu_direct import build_for_circuit
     build_for_circuit(cid, out_path=path)
+    # Pin the compiler's own head labels (lookup vs passthrough) to this model.
+    # The builder writes allocation.yaml into the process cwd and overwrites it
+    # on every build, so capture it immediately.
+    try:
+        from craft_groundtruth import capture_allocation
+        capture_allocation(path)
+    except Exception:
+        pass
     return path

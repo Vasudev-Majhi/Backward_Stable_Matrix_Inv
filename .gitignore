@@ -10,3 +10,10 @@ revision/models/
 revision/models_K/
 revision/models_sched/
 revision/results/*.log
+revision/models_gt/
+revision/paper/*.bbl
+revision/paper/*.blg
+revision/paper/*.aux
+revision/paper/*.log
+revision/allocation.yaml
+revision/plan.yaml

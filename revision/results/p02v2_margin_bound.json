@@ -1,0 +1,140 @@
+{
+  "alpha": 0.3,
+  "M_exact_margin_lower_bound": 0.567191487733311,
+  "note": "K cancels from the precision condition and only shrinks the range condition",
+  "min_exact_gap_over_t": 0.9995737975901113,
+  "bound_M_holds": true,
+  "bound_production_K1e10": {
+    "float64": {
+      "P_precision": 20633320.030165836,
+      "P_range": 7.741001517595157e+148,
+      "P_max_predicted": 20633320.030165836,
+      "binding_constraint": "precision"
+    },
+    "float32": {
+      "P_precision": 890.5005195143117,
+      "P_range": 106502323392266.72,
+      "P_max_predicted": 890.5005195143117,
+      "binding_constraint": "precision"
+    },
+    "float16": {
+      "P_precision": 9.838733687479895,
+      "P_range": 0.0014776558011481112,
+      "P_max_predicted": 0.0014776558011481112,
+      "binding_constraint": "range"
+    },
+    "bfloat16": {
+      "P_precision": 4.919366843739947,
+      "P_range": 106294110674918.33,
+      "P_max_predicted": 4.919366843739947,
+      "binding_constraint": "precision"
+    }
+  },
+  "bound_K1e4": {
+    "float64": {
+      "P_precision": 20633320.030165836,
+      "P_range": 7.741001517595157e+151,
+      "P_max_predicted": 20633320.030165836,
+      "binding_constraint": "precision"
+    },
+    "float32": {
+      "P_precision": 890.5005195143117,
+      "P_range": 1.0650232339226672e+17,
+      "P_max_predicted": 890.5005195143117,
+      "binding_constraint": "precision"
+    },
+    "float16": {
+      "P_precision": 9.838733687479895,
+      "P_range": 1.4776558011481111,
+      "P_max_predicted": 1.4776558011481111,
+      "binding_constraint": "range"
+    },
+    "bfloat16": {
+      "P_precision": 4.919366843739947,
+      "P_range": 1.0629411067491832e+17,
+      "P_max_predicted": 4.919366843739947,
+      "binding_constraint": "precision"
+    }
+  },
+  "bound_K1": {
+    "float64": {
+      "P_precision": 20633320.030165836,
+      "P_range": 7.741001517595157e+153,
+      "P_max_predicted": 20633320.030165836,
+      "binding_constraint": "precision"
+    },
+    "float32": {
+      "P_precision": 890.5005195143117,
+      "P_range": 1.0650232339226671e+19,
+      "P_max_predicted": 890.5005195143117,
+      "binding_constraint": "precision"
+    },
+    "float16": {
+      "P_precision": 9.838733687479895,
+      "P_range": 147.76558011481114,
+      "P_max_predicted": 9.838733687479895,
+      "binding_constraint": "precision"
+    },
+    "bfloat16": {
+      "P_precision": 4.919366843739947,
+      "P_range": 1.0629411067491832e+19,
+      "P_max_predicted": 4.919366843739947,
+      "binding_constraint": "precision"
+    }
+  },
+  "empirical_first_failure_production": {
+    "float64": null,
+    "float32": 3898,
+    "float16": 1,
+    "bfloat16": 15
+  },
+  "bound_vs_empirical": {
+    "float64": {
+      "predicted_P_max": 20633320.030165836,
+      "empirical_first_failure": null,
+      "conservatism_factor": null,
+      "binding": "precision"
+    },
+    "float32": {
+      "predicted_P_max": 890.5005195143117,
+      "empirical_first_failure": 3898,
+      "conservatism_factor": 4.377313560834316,
+      "binding": "precision"
+    },
+    "float16": {
+      "predicted_P_max": 0.0014776558011481112,
+      "empirical_first_failure": 1,
+      "conservatism_factor": 676.7475884593817,
+      "binding": "range"
+    },
+    "bfloat16": {
+      "predicted_P_max": 4.919366843739947,
+      "empirical_first_failure": 15,
+      "conservatism_factor": 3.049172886768545,
+      "binding": "precision"
+    }
+  },
+  "normalized_encoding_first_failure": {
+    "float32": 4103,
+    "float16": 1,
+    "bfloat16": 15
+  },
+  "normalized_encoding_predicted_P": {
+    "float64": 67108864.0,
+    "float32": 2896.3093757400984,
+    "float16": 32.0,
+    "bfloat16": 16.0
+  },
+  "H2a_verdict": {
+    "hypothesis": "bounded-magnitude encoding restores correct selection in bf16",
+    "supported": false,
+    "reason": "normalizing positions divides the margin by P^2 exactly as it divides the magnitudes, leaving the relative gap unchanged; the required precision is u = O(1/P^2) for any quadratic key family, independent of the scale constant",
+    "evidence": "normalized_encoding_first_failure vs empirical_first_failure_production"
+  },
+  "design_rule_bits_for_P": {
+    "10": 11.046910904246383,
+    "100": 17.69076709402111,
+    "601": 22.86549707589403,
+    "10000": 30.978479473570555
+  }
+}
